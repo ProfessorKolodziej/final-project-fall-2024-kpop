@@ -30,6 +30,14 @@ body {
 	background-color: black;
 	color: white;
 }
+.quiz-1,.quiz-2,.quiz-3,.quiz-3,.quiz-4,.quiz-5 {
+	font-family: "League Spartan", sans-serif;
+	font-optical-sizing: auto;
+  	font-weight: 900;
+  	font-style: normal;
+	font-size: 24px;
+	text-transform: capitalize;
+}
 
 .result {
 	font-family: "League Spartan", sans-serif;
@@ -52,4 +60,13 @@ body {
 		margin: 0 auto;
 		max-width: 768px;
 	}
+}
+.quiz-4-btn,.quiz-1-btn {
+	background-color: #AB312A;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 16px;
+	font-family: "Lateef", sans-serif;
 }
