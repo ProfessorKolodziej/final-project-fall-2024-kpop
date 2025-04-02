@@ -1,42 +1,60 @@
-/*
-CSS controls the styling of the page.
-You can write a color in directly, or use variables.
-Try changing the color from blue to red in the
-primary color variable below.
-*/
-
-:root {
-	--color-primary: blue;
-	--color-secondary: #c00;
-}
-
-/*
-CSS doesn't allow variables to be used in media
-queries just yet, but you can use these values
-to help you out.
-
-	--size-xs: 320px;
-	--size-sm: 480px;
-	--size-md: 768px;
-	--size-lg: 1024px;
-	--size-xl: 1200px;
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&family=League+Spartan:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&display=swap');
 
 body {
 	background-color: black;
-	color: white;
+	color: #FFFEFE;
 }
-.quiz-1,.quiz-2,.quiz-3,.quiz-3,.quiz-4,.quiz-5 {
+
+.homepage h1 {
 	font-family: "League Spartan", sans-serif;
 	font-optical-sizing: auto;
-  	font-weight: 900;
-  	font-style: normal;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 48px;
+}
+
+.homepage h2 {
+	font-family: "League Spartan", sans-serif;
+	font-weight: 800;
+	font-size: 40px;
+	text-transform: capitalize;
+}
+
+.homepage h3 {
+	font-family: "League Spartan", sans-serif;
+	font-weight: 600;
+	font-size: 28px;
+}
+
+.homepage img {
+	width: 100%;
+}
+
+.quiz-1,
+.quiz-2,
+.quiz-3,
+.quiz-3,
+.quiz-4,
+.quiz-5 {
+	font-family: "League Spartan", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: normal;
 	font-size: 24px;
 	text-transform: capitalize;
+}
+
+.home-btn,
+.quiz-4-btn,
+.quiz-1-btn {
+	background-color: #AB312A;
+	color: white;
+	border: none;
+	padding: 6px 20px;
+	cursor: pointer;
+	font-size: 18px;
+	font-family: "Lateef", serif;
 }
 
 .result {
@@ -50,7 +68,7 @@ body {
 	padding: 10px 20px;
 	cursor: pointer;
 	font-size: 16px;
-	font-family: "Lateef", sans-serif;
+	font-family: "Lateef", serif;
 }
 
 
@@ -60,13 +78,4 @@ body {
 		margin: 0 auto;
 		max-width: 768px;
 	}
-}
-.quiz-4-btn,.quiz-1-btn {
-	background-color: #AB312A;
-	color: white;
-	border: none;
-	padding: 10px 20px;
-	cursor: pointer;
-	font-size: 16px;
-	font-family: "Lateef", sans-serif;
 }
