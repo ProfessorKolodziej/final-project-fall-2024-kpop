@@ -68,7 +68,23 @@ body {
 	padding: 10px 20px;
 	cursor: pointer;
 	font-size: 16px;
-	font-family: "Lateef", serif;
+	font-family: "Lateef", sans-serif;
+}
+
+.result-title {
+	font-size: 40px;
+}
+
+.result-name {
+	font-size: 30px;
+}
+
+.result-text {
+	font-size: 25px;
+}
+
+.result-images {
+	width: 100%;
 }
 
 
