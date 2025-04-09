@@ -195,10 +195,37 @@ img {
 		margin: 0 auto;
 		max-width: 1024px;
 	}
+
+	.quiz-1,
+	.quiz-2,
+	.quiz-3,
+	.quiz-4,
+	.quiz-5 {
+		font-size: 60px;
+		font-weight: 700;
+	}
+
+	.quiz-1-btn-list,
+	.quiz-2-btn-list,
+	.quiz-3-btn-list,
+	.quiz-4-btn-list,
+	.quiz-5-btn-list {
+		display: grid;
+		grid-template-columns: repeat(2, auto);
+		gap: 71px;
+	}
 }
 
 @media screen and (width >=1024px) {
 	.content-container {
 		margin: 0 auto;
+	}
+
+	.quiz-1,
+	.quiz-2,
+	.quiz-3,
+	.quiz-4,
+	.quiz-5 {
+		font-size: 60px;
 	}
 }
