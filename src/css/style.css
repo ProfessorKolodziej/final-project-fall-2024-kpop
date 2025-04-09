@@ -17,6 +17,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	width: fit-content;
+	align-items: center;
+	justify-content: center;
 }
 
 img {
@@ -32,53 +34,78 @@ img {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	justify-content: center;
-	display: none;
+	justify-content: flex-start;
+	padding-top: 35px;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-
-	&.show {
-		display: flex;
-	}
 }
 
-.homepage h1 {
+.headline {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.headline-line {
 	font-family: "League Spartan", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 800;
 	font-style: normal;
-	font-size: 48px;
+	font-size: 79px;
 	text-transform: uppercase;
-	letter-spacing: 1px;
-	line-height: 1.2
 }
 
-.homepage h2 {
+.headline-line-large {
 	font-family: "League Spartan", sans-serif;
 	font-weight: 800;
-	font-size: 40px;
+	font-size: 130px;
 	text-transform: uppercase;
-	letter-spacing: 2px
+	line-height: 0.8;
+}
+
+.subheadline {
+	font-family: "League Spartan", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-size: 48px;
+	word-spacing: 53px;
+	text-transform: uppercase;
+	margin-top: -8px;
 }
 
 .homepage h3 {
 	font-family: "League Spartan", sans-serif;
 	font-weight: 600;
-	font-size: 28px;
+	font-size: 24px;
+	position: absolute;
+	bottom: 99px;
+	right: 24px;
+	text-align: right;
+	max-width: 250px;
+	line-height: 1;
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
 .home-btn {
-	margin-top: 1.5rem;
-	padding: 0.8rem 1.5rem;
+	font-size: 24px;
+	font-weight: 600;
+	font-family: "Lateef", serif;
+	justify-content: center;
+	padding: 10px 32px;
 	background-color: #AB312A;
 	color: white;
-	font-size: 1rem;
-	font-weight: bold;
 	border: none;
-	border-radius: 4px;
 	cursor: pointer;
 	transition: background-color 0.3s ease;
+	position: absolute;
+	bottom: 2rem;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 /*.homepage img {
@@ -126,13 +153,12 @@ img {
 	gap: 28px;
 }
 
-.home-btn,
 .quiz-4-btn,
 .quiz-1-btn {
 	background-color: #AB312A;
 	color: white;
 	border: none;
-	padding: 19px 42px;
+	padding: 10px 32px;
 	gap: 10px;
 	cursor: pointer;
 	font-size: 24px;
@@ -232,6 +258,39 @@ img {
 		max-width: 1024px;
 	}
 
+	.headline {
+		max-width: 90%;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+
+	.headline-line,
+	.headline-line-large {
+		font-size: 73px;
+	}
+
+	.subheadline {
+		font-size: 50px;
+		word-spacing: 20.5vw;
+		width: 100%;
+		text-align: center;
+		margin-top: 0px;
+		line-height: 0;
+	}
+
+	.homepage h3 {
+		font-size: 24px;
+		bottom: 120px;
+		right: 74px;
+	}
+
+	.home-btn {
+		font-size: 26px;
+	}
+
 	.quiz-1,
 	.quiz-2,
 	.quiz-3,
@@ -265,12 +324,29 @@ img {
 		margin: 0 auto;
 	}
 
-	.quiz-1-btn-list,
-	.quiz-2-btn-list,
-	.quiz-3-btn-list,
-	.quiz-4-btn-list,
-	.quiz-5-btn-list {
-		gap: 66px;
+	.headline-line,
+	.headline-line-large {
+		font-size: 100px;
 	}
 
+	.subheadline {
+		font-size: 60px;
+		word-spacing: 16.5vw;
+	}
+
+	.homepage h3 {
+		font-size: 25px;
+	}
+
+	.home-btn {
+		font-size: 28px;
+	}
+}
+
+.quiz-1-btn-list,
+.quiz-2-btn-list,
+.quiz-3-btn-list,
+.quiz-4-btn-list,
+.quiz-5-btn-list {
+	gap: 66px;
 }
