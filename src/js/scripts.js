@@ -8,12 +8,12 @@
 
 const startBtn = document.querySelector(".home-btn");
 
-function goToNext(){
-    const thisSection = this.closest(".homepage");
-    const nextSection=document.querySelector(".quiz-1");
+function goToNext() {
+	const thisSection = this.closest(".homepage");
+	const nextSection = document.querySelector(".quiz-1");
 
-    thisSection.classList.toggle("show");
-    nextSection.classList.toggle("show");
+	thisSection.classList.toggle("show");
+	nextSection.classList.toggle("show");
 }
 
 startBtn.addEventListener("click", goToNext);
