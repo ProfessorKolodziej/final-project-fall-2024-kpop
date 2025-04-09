@@ -172,6 +172,20 @@ img {
 	gap: 61px;
 }
 
+.quiz-1-btn-row {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	gap: 28px;
+}
+
+.quiz-1-btn-row2 {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
 .quiz-2 {
 	background-image: url("../images/quiz-2-background.png");
 	gap: 28px;
@@ -307,6 +321,11 @@ img {
 		display: grid;
 		grid-template-columns: repeat(2, auto);
 		gap: 71px;
+	}
+
+	.quiz-1-btn-row {
+		flex-direction: row;
+		justify-content: center;
 	}
 
 	.quiz-4-btn,
