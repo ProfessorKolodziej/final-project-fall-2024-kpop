@@ -486,7 +486,7 @@ img {
 
 	.result-title {
 		font-size: 50px;
-		background-color: rgba(0, 0, 0, 0.6);
+		background-color: #00000099;
 		position: absolute;
 		margin: 0;
 		top: 40px;
@@ -499,7 +499,7 @@ img {
 
 	.result-name,
 	.result-text {
-		background-color: rgba(0, 0, 0, 0.6);
+		background-color: #00000099;
 		padding-top: 15px;
 		padding-bottom: 10px;
 		padding-left: 10px;
