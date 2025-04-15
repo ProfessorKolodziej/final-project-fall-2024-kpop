@@ -9,7 +9,7 @@
 	background-color: #AB312A;
 	color: white;
 	border: none;
-	padding: 10px 20px;
+	padding: 5px 10px;
 	font-size: 20px;
 	font-family: "Lateef", serif;
 	cursor: pointer;
@@ -399,13 +399,15 @@ img {
 
 	.home-icon-btn {
 		font-size: 25px;
+		padding: 10px 20px;
 	}
 
 }
 
 @media screen and (width >=1024px) {
 	.home-icon-btn {
-		font-size: 30px
+		font-size: 30px;
+		padding: 10px 20px;
 	}
 
 	.content-container {
@@ -430,6 +432,11 @@ img {
 		font-size: 28px;
 	}
 
+	.homepage {
+		min-height: 100vh;
+		width: 100vw;
+	}
+
 	.quiz-1-btn-list,
 	.quiz-2-btn-list,
 	.quiz-3-btn-list,
@@ -444,6 +451,15 @@ img {
 
 	.quiz-1-btn-row2 {
 		margin-top: 66px;
+	}
+
+	.quiz-1,
+	.quiz-2,
+	.quiz-3,
+	.quiz-4,
+	.quiz-5 {
+		min-height: 100vh;
+		width: 100vw;
 	}
 
 	.result-images {
