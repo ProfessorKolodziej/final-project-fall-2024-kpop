@@ -187,6 +187,7 @@ img {
 	font-weight: 600;
 	font-family: "Lateef", serif;
 	justify-content: center;
+	text-transform: capitalize;
 }
 
 .quiz-1 {

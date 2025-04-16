@@ -25,8 +25,8 @@ const kpopGroups = {
 	"NCT 127": {
 		name: "NCT 127",
 		groupType: "Boy",
-		genre: "Edgy",
-		aesthetic: "Futuristic",
+		genre: "Experimental & Edgy",
+		aesthetic: "Futuristic & Edgy",
 		link: "https://en.wikipedia.org/wiki/NCT_127",
 		image: "images/result-nct127.jpg",
 		members: [
@@ -40,8 +40,8 @@ const kpopGroups = {
 	"Boynextdoor": {
 		name: "Boynextdoor",
 		groupType: "Boy",
-		genre: "Upbeat",
-		aesthetic: "Youthful",
+		genre: "Upbeat & Happy",
+		aesthetic: "Fresh & Youthful",
 		link: "https://en.wikipedia.org/wiki/Boynextdoor",
 		image: "images/boynextdoor.webp",
 		members: [
@@ -55,8 +55,8 @@ const kpopGroups = {
 	"Riize": {
 		name: "Riize",
 		groupType: "Boy",
-		genre: "Chill",
-		aesthetic: "Vintage",
+		genre: "Chill & Moody",
+		aesthetic: "Vintage / Retro",
 		link: "https://en.wikipedia.org/wiki/Riize",
 		image: "images/result-riize.jpg",
 		members: [
@@ -69,8 +69,8 @@ const kpopGroups = {
 	"Stray Kids": {
 		name: "Stray Kids",
 		groupType: "Boy",
-		genre: "Rap",
-		aesthetic: "Dark",
+		genre: "Rap & Hip-pop",
+		aesthetic: "Dark & Mysterious",
 		link: "https://en.wikipedia.org/wiki/Stray_Kids",
 		image: "images/Straykids.webp",
 		members: [
@@ -85,8 +85,8 @@ const kpopGroups = {
 	"Le sserafim": {
 		name: "Le sserafim",
 		groupType: "Girl",
-		genre: "Upbeat",
-		aesthetic: "Vintage",
+		genre: "Upbeat & Happy",
+		aesthetic: "Vintage / Retro",
 		link: "https://en.wikipedia.org/wiki/Le_Sserafim",
 		image: "images/result-lesserafim.jpg",
 		members: [
@@ -99,8 +99,8 @@ const kpopGroups = {
 	"njz": {
 		name: "njz",
 		groupType: "Girl",
-		genre: "Chill",
-		aesthetic: "Youthful",
+		genre: "Chill & Moody",
+		aesthetic: "Fresh & Youthful",
 		link: "https://en.wikipedia.org/wiki/NewJeans",
 		image: "images/NewJeans.webp",
 		members: [
@@ -113,8 +113,8 @@ const kpopGroups = {
 	"aespa": {
 		name: "aespa",
 		groupType: "Girl",
-		genre: "Edgy",
-		aesthetic: "Futuristic",
+		genre: "Experimental & Edgy",
+		aesthetic: "Futuristic & Edgy",
 		link: "https://en.wikipedia.org/wiki/Aespa",
 		image: "images/aespa.jpg",
 		members: [
@@ -127,8 +127,8 @@ const kpopGroups = {
 	"babymonster": {
 		name: "Babymonster",
 		groupType: "Girl",
-		genre: "Rap",
-		aesthetic: "Dark",
+		genre: "Rap & Hip-pop",
+		aesthetic: "Dark & Mysterious",
 		link: "https://en.wikipedia.org/wiki/Babymonster",
 		image: "images/babymonster.webp",
 		members: [
