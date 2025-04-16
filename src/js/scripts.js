@@ -19,6 +19,128 @@ function goToNext() {
 
 startBtn.addEventListener("click", goToNext);*/
 
+// Defining all the K-pop group data as an object
+const kpopGroups = {
+	// Boy Groups
+	"NCT 127": {
+		name: "NCT 127",
+		groupType: "Boy",
+		genre: "Edgy",
+		aesthetic: "Futuristic",
+		link: "https://en.wikipedia.org/wiki/NCT_127",
+		image: "images/result-nct127.jpg",
+		members: [
+			{ name: "Taeyong", role: "Visual", image: "images/taeyong.jpg" },
+			{ name: "Yuta", role: "Dancer", image: "images/yuta.jpg" },
+			{ name: "Doyoung", role: "Vocalist", image: "images/doyoung.jpg" },
+			{ name: "Mark", role: "Rapper", image: "images/result-marklee" },
+			{ name: "Haechan", role: "Vocalist", image: "images/haechan.jpg" }
+		]
+	},
+	"Boynextdoor": {
+		name: "Boynextdoor",
+		groupType: "Boy",
+		genre: "Upbeat",
+		aesthetic: "Youthful",
+		link: "https://en.wikipedia.org/wiki/Boynextdoor",
+		image: "images/boynextdoor.webp",
+		members: [
+			{ name: "Taesan", role: "Visual", image: "images/taesan.jpg" },
+			{ name: "Leehan", role: "Visual", image: "images/leehan.jpg" },
+			{ name: "Jaehyun", role: "Rapper", image: "images/jaehyun.jpg" },
+			{ name: "Woonhak", role: "Vocalist", image: "images/woonhak.jpg" },
+			{ name: "Riwoo", role: "Dancer", image: "images/riwoo.jpg" }
+		]
+	},
+	"Riize": {
+		name: "Riize",
+		groupType: "Boy",
+		genre: "Chill",
+		aesthetic: "Vintage",
+		link: "https://en.wikipedia.org/wiki/Riize",
+		image: "images/result-riize.jpg",
+		members: [
+			{ name: "Shotaro", role: "Dancer", image: "images/Shotaro.jpg" },
+			{ name: "Wonbin", role: "Visual", image: "images/Wonbin.jpg" },
+			{ name: "Sohee", role: "Vocalist", image: "images/Sohee.jpg" },
+			{ name: "Sungchan", role: "Rapper", image: "images/sungchan.jpg" }
+		]
+	},
+	"Stray Kids": {
+		name: "Stray Kids",
+		groupType: "Boy",
+		genre: "Rap",
+		aesthetic: "Dark",
+		link: "https://en.wikipedia.org/wiki/Stray_Kids",
+		image: "images/Straykids.webp",
+		members: [
+			{ name: "Seungmin", role: "Vocalist", image: "images/bangchan.jpg" },
+			{ name: "Lee Know", role: "Dancer", image: "images/leenow.jpg" },
+			{ name: "Changbin", role: "Rapper", image: "images/changbin.jpg" },
+			{ name: "Hyunjin", role: "Visual", image: "images/hyunjin.jpg" }
+		]
+	},
+
+	// Girl Groups
+	"Le sserafim": {
+		name: "Le sserafim",
+		groupType: "Girl",
+		genre: "Upbeat",
+		aesthetic: "Vintage",
+		link: "https://en.wikipedia.org/wiki/Le_Sserafim",
+		image: "images/result-lesserafim.jpg",
+		members: [
+			{ name: "Sakura", role: "Visual", image: "images/sakura.jpg" },
+			{ name: "Kazuha", role: "Rapper", image: "images/kazuha.jpg" },
+			{ name: "Chaewon", role: "Vocalist", image: "images/chaewon.jpg" },
+			{ name: "Eunchae", role: "Dancer", image: "images/eunchae.jpg" }
+		]
+	},
+	"njz": {
+		name: "njz",
+		groupType: "Girl",
+		genre: "Chill",
+		aesthetic: "Youthful",
+		link: "https://en.wikipedia.org/wiki/NewJeans",
+		image: "images/NewJeans.webp",
+		members: [
+			{ name: "Minji", role: "Rapper", image: "images/minji.jpg" },
+			{ name: "Hanni", role: "Dancer", image: "images/hanni.jpg" },
+			{ name: "Danielle", role: "Visual", image: "images/danielle.jpg" },
+			{ name: "Hyein", role: "Vocalist", image: "images/hyein.jpg" }
+		]
+	},
+	"aespa": {
+		name: "aespa",
+		groupType: "Girl",
+		genre: "Edgy",
+		aesthetic: "Futuristic",
+		link: "https://en.wikipedia.org/wiki/Aespa",
+		image: "images/aespa.jpg",
+		members: [
+			{ name: "Karina", role: "Dancer", image: "images/karina.jpg" },
+			{ name: "Winter", role: "Visual", image: "images/winter.jpg" },
+			{ name: "Giselle", role: "Rapper", image: "images/giselle.jpg" },
+			{ name: "Ningning", role: "Vocalist", image: "images/ningning.jpg" }
+		]
+	},
+	"babymonster": {
+		name: "Babymonster",
+		groupType: "Girl",
+		genre: "Rap",
+		aesthetic: "Dark",
+		link: "https://en.wikipedia.org/wiki/Babymonster",
+		image: "images/babymonster.webp",
+		members: [
+			{ name: "Ruka", role: "Rapper", image: "images/ruka.jpg" },
+			{ name: "Ahyeon", role: "Vocalist", image: "images/ahyeon.jpg" },
+			{ name: "Chiquita", role: "Dancer", image: "images/chiquita.jpg" },
+			{ name: "Pharita", role: "Visual", image: "images/pharita.jpg" }
+		]
+	}
+};
+
+
 document.addEventListener("DOMContentLoaded", () => {
 	const sections = [
 		document.querySelector(".homepage"),
