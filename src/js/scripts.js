@@ -30,11 +30,25 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/NCT_127",
 		image: "images/result-nct127.jpg",
 		members: [
-			{ name: "Taeyong", role: "Visual", image: "images/taeyong.jpg" },
-			{ name: "Yuta", role: "Dancer", image: "images/yuta.jpg" },
+			{ name: "Jaehyun", role: "Visual", image: "images/jaehyun.jpg" },
+			{ name: "Taeyong", role: "Dancer", image: "images/taeyong.jpg" },
 			{ name: "Doyoung", role: "Vocalist", image: "images/doyoung.jpg" },
 			{ name: "Mark", role: "Rapper", image: "images/result-marklee" },
-			{ name: "Haechan", role: "Vocalist", image: "images/haechan.jpg" }
+		]
+	},
+	"NCT Dream": {
+		name: "NCT Dream",
+		groupType: "Boy",
+		genre: "Experimental & Edgy",
+		aesthetic: "Futuristic & Edgy",
+		link: "https://en.wikipedia.org/wiki/NCT_Dream",
+		image: "images/nctdream.webp",
+		members: [
+			{ name: "Jaemin", role: "Visual", image: "images/jaemin.jpg" },
+			{ name: "Jisung", role: "Dancer", image: "images/jisung.jpg" },
+			{ name: "Haechan", role: "Vocalist", image: "images/haechan.jpg" },
+			{ name: "Chenle", role: "Vocalist", image: "images/chenle.jpg" },
+			{ name: "Jeno", role: "Rapper", image: "images/jeno,jpg" },
 		]
 	},
 	"Boynextdoor": {
@@ -52,6 +66,20 @@ const kpopGroups = {
 			{ name: "Riwoo", role: "Dancer", image: "images/riwoo.jpg" }
 		]
 	},
+	"TWS": {
+		name: "TWS",
+		groupType: "Boy",
+		genre: "Upbeat & Happy",
+		aesthetic: "Fresh & Youthful",
+		link: "https://en.wikipedia.org/wiki/TWS_(group)",
+		image: "images/TWS.jpg",
+		members: [
+			{ name: "Shinyu", role: "Visual", image: "images/Shinyu.jpg" },
+			{ name: "Dohoon", role: "Rapper", image: "images/Dohoon.jpg" },
+			{ name: "Youngjae", role: "Vocalist", image: "images/Youngjae.jpg" },
+			{ name: "Jihoon", role: "Dancer", image: "images/Jihoon.jpg" }
+		]
+	},
 	"Riize": {
 		name: "Riize",
 		groupType: "Boy",
@@ -64,6 +92,20 @@ const kpopGroups = {
 			{ name: "Wonbin", role: "Visual", image: "images/Wonbin.jpg" },
 			{ name: "Sohee", role: "Vocalist", image: "images/Sohee.jpg" },
 			{ name: "Sungchan", role: "Rapper", image: "images/sungchan.jpg" }
+		]
+	},
+	"TXT": {
+		name: "TXT",
+		groupType: "Boy",
+		genre: "Chill & Moody",
+		aesthetic: "Vintage / Retro",
+		link: "https://en.wikipedia.org/wiki/Tomorrow_X_Together",
+		image: "images/result-riize.jpg",
+		members: [
+			{ name: "Yeonjun", role: "Dancer", image: "images/Shotaro.jpg" },
+			{ name: "Beomgyu", role: "Visual", image: "images/Wonbin.jpg" },
+			{ name: "Taehyun", role: "Vocalist", image: "images/Sohee.jpg" },
+			{ name: "Soobin", role: "Rapper", image: "images/sungchan.jpg" }
 		]
 	},
 	"Stray Kids": {
