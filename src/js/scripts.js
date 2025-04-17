@@ -140,35 +140,34 @@ const kpopGroups = {
 	}
 };
 
+const sections = [
+	document.querySelector(".homepage"),
+	document.querySelector(".quiz-1"),
+	document.querySelector(".quiz-2"),
+	document.querySelector(".quiz-3"),
+	document.querySelector(".result-group"),
+	document.querySelector(".quiz-4"),
+	document.querySelector(".quiz-5"),
+	document.querySelector(".result-bias"),
+];
+
+function showSection(sectionToShow) {
+	sections.forEach(section => {
+		section.classList.remove("show");
+		section.style.display = "none";
+	});
+	sectionToShow.classList.add("show");
+	sectionToShow.style.display = "flex";
+
+	const homeButton = document.querySelector(".home-icon-btn");
+	if (sectionToShow.classList.contains("homepage")) {
+		homeButton.style.display = "none";
+	} else {
+		homeButton.style.display = "block";
+	}
+}
 
 document.addEventListener("DOMContentLoaded", () => {
-	const sections = [
-		document.querySelector(".homepage"),
-		document.querySelector(".quiz-1"),
-		document.querySelector(".quiz-2"),
-		document.querySelector(".quiz-3"),
-		document.querySelector(".result-group"),
-		document.querySelector(".quiz-4"),
-		document.querySelector(".quiz-5"),
-		document.querySelector(".result-bias"),
-	];
-
-	function showSection(sectionToShow) {
-		sections.forEach(section => {
-			section.classList.remove("show");
-			section.style.display = "none";
-		});
-		sectionToShow.classList.add("show");
-		sectionToShow.style.display = "flex";
-
-		const homeButton = document.querySelector(".home-icon-btn");
-		if (sectionToShow.classList.contains("homepage")) {
-			homeButton.style.display = "none";
-		} else {
-			homeButton.style.display = "block";
-		}
-	}
-
 	showSection(sections[0]);
 
 	document.querySelector(".home-btn").addEventListener("click", () => {
@@ -220,3 +219,40 @@ document.addEventListener("DOMContentLoaded", () => {
 		}
 	});
 });
+
+// store user input
+let userResults = {
+	gender: "",
+	genre: "",
+	aesthetic: "",
+	role: "",
+	animalLook: ""
+};
+
+// collect user input
+document.querySelectorAll(".quiz-1-btn").forEach(button => {
+	button.addEventListener("click", () => {
+		userResults.gender = button.textContent;  // Store the selected answer
+
+		// Move to the next section
+		showSection(sections[2]);
+	});
+});
+
+document.querySelectorAll(".quiz-2-btn").forEach(button => {
+	button.addEventListener("click", () => {
+		userResults.genre = button.textContent;
+
+		showSection(sections[3]);
+	});
+});
+
+document.querySelectorAll(".quiz-3-btn").forEach(button => {
+	button.addEventListener("click", () => {
+		userResults.aesthetic = button.textContent;
+
+		showSection(sections[4]);
+	});
+});
+
+// match the group
