@@ -19,14 +19,27 @@ function goToNext() {
 
 startBtn.addEventListener("click", goToNext);*/
 
+
+
+
 // Defining all the K-pop group data as an object
 const kpopGroups = {
 	// Boy Groups
 	"NCT 127": {
 		name: "NCT 127",
 		groupType: "Boy",
-		genre: "Experimental & Edgy",
-		aesthetic: "Futuristic & Edgy",
+		answers: [
+			{
+				gender: "boy group",
+				genre: "experimental & edgy",
+				aesthetic: "futuristic & edgy"
+			},
+			{
+				gender: "either",
+				genre: "experimental & edgy",
+				aesthetic: "futuristic & edgy"
+			}
+		],
 		link: "https://en.wikipedia.org/wiki/NCT_127",
 		image: "images/result-nct127.jpg",
 		members: [
@@ -39,10 +52,21 @@ const kpopGroups = {
 	"NCT Dream": {
 		name: "NCT Dream",
 		groupType: "Boy",
-		genre: "Experimental & Edgy",
-		aesthetic: "Futuristic & Edgy",
+		answers: [
+			{
+				gender: "boy group",
+				genre: "experimental & edgy",
+				aesthetic: "fresh & youthful"
+			},
+			{
+				gender: "either",
+				genre: "experimental & edgy",
+				aesthetic: "fresh & youthful"
+			}
+		],
 		link: "https://en.wikipedia.org/wiki/NCT_Dream",
 		image: "images/nctdream.webp",
+		backgroundImage: "images/result-nctdream.jpg",
 		members: [
 			{ name: "Jaemin", role: "Visual", image: "images/jaemin.jpg" },
 			{ name: "Jisung", role: "Dancer", image: "images/jisung.jpg" },
