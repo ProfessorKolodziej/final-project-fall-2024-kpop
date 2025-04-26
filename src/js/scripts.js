@@ -43,10 +43,10 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/NCT_127",
 		image: "images/result-nct127.jpg",
 		members: [
-			{ name: "Jaehyun", role: "Visual", image: "images/jaehyun.jpg" },
-			{ name: "Taeyong", role: "Dancer", image: "images/taeyong.jpg" },
-			{ name: "Doyoung", role: "Vocalist", image: "images/doyoung.jpg" },
-			{ name: "Mark", role: "Rapper", image: "images/result-marklee" },
+			{ name: "Jaehyun", role: "Visual", animalLook:"Dog", image: "images/jaehyun.jpg" },
+			{ name: "Taeyong", role: "Dancer", animalLook:"Cat", image: "images/taeyong.jpg" },
+			{ name: "Doyoung", role: "Vocalist",animalLook:"Rabbit", image: "images/doyoung.jpg" },
+			{ name: "Mark", role: "Rapper", animalLook:"Cat", image: "images/result-marklee" },
 		]
 	},
 	"NCT Dream": {
@@ -68,11 +68,11 @@ const kpopGroups = {
 		image: "images/nctdream.webp",
 		backgroundImage: "images/result-nctdream.jpg",
 		members: [
-			{ name: "Jaemin", role: "Visual", image: "images/jaemin.jpg" },
-			{ name: "Jisung", role: "Dancer", image: "images/jisung.jpg" },
-			{ name: "Haechan", role: "Vocalist", image: "images/haechan.jpg" },
-			{ name: "Chenle", role: "Vocalist", image: "images/chenle.jpg" },
-			{ name: "Jeno", role: "Rapper", image: "images/jeno,jpg" },
+			{ name: "Jaemin", role: "Visual", animalLook:"Rabbit", image: "images/jaemin.jpg" },
+			{ name: "Jisung", role: "Dancer", animalLook:"Hamster", image: "images/jisung.jpg" },
+			{ name: "Haechan", role: "Vocalist", animalLook:"Dog", image: "images/haechan.jpg" },
+			{ name: "Chenle", role: "Vocalist", animalLook:"Cat", image: "images/chenle.jpg" },
+			{ name: "Jeno", role: "Rapper", animalLook:"Dog", image: "images/jeno.jpg" },
 		]
 	},
 	"Boynextdoor": {
@@ -83,11 +83,11 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/Boynextdoor",
 		image: "images/boynextdoor.webp",
 		members: [
-			{ name: "Taesan", role: "Visual", image: "images/taesan.jpg" },
-			{ name: "Leehan", role: "Visual", image: "images/leehan.jpg" },
-			{ name: "Jaehyun", role: "Rapper", image: "images/jaehyun.jpg" },
-			{ name: "Woonhak", role: "Vocalist", image: "images/woonhak.jpg" },
-			{ name: "Riwoo", role: "Dancer", image: "images/riwoo.jpg" }
+			{ name: "Taesan", role: "Visual", animalLook:"Cat", image: "images/taesan.jpg" },
+			{ name: "Leehan", role: "Visual", animalLook:"Cat", image: "images/leehan.jpg" },
+			{ name: "Jaehyun", role: "Rapper", animalLook:"Dog", image: "images/jaehyun.jpg" },
+			{ name: "Woonhak", role: "Vocalist", animalLook:"Hamster", image: "images/woonhak.jpg" },
+			{ name: "Riwoo", role: "Dancer", animalLook:"Dog", image: "images/riwoo.jpg" }
 		]
 	},
 	"TWS": {
@@ -98,10 +98,10 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/TWS_(group)",
 		image: "images/TWS.jpg",
 		members: [
-			{ name: "Shinyu", role: "Visual", image: "images/Shinyu.jpg" },
-			{ name: "Dohoon", role: "Rapper", image: "images/Dohoon.jpg" },
-			{ name: "Youngjae", role: "Vocalist", image: "images/Youngjae.jpg" },
-			{ name: "Jihoon", role: "Dancer", image: "images/Jihoon.jpg" }
+			{ name: "Shinyu", role: "Visual", animalLook:"Cat", image: "images/Shinyu.jpg" },
+			{ name: "Dohoon", role: "Rapper", animalLook:"Dog", image: "images/Dohoon.jpg" },
+			{ name: "Youngjae", role: "Vocalist", animalLook:"Rabbit", image: "images/Youngjae.jpg" },
+			{ name: "Jihoon", role: "Dancer", animalLook:"Hamster", image: "images/Jihoon.jpg" }
 		]
 	},
 	"Riize": {
@@ -112,10 +112,10 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/Riize",
 		image: "images/result-riize.jpg",
 		members: [
-			{ name: "Shotaro", role: "Dancer", image: "images/Shotaro.jpg" },
-			{ name: "Wonbin", role: "Visual", image: "images/Wonbin.jpg" },
-			{ name: "Sohee", role: "Vocalist", image: "images/Sohee.jpg" },
-			{ name: "Sungchan", role: "Rapper", image: "images/sungchan.jpg" }
+			{ name: "Shotaro", role: "Dancer", animalLook:"Hamster", image: "images/Shotaro.jpg" },
+			{ name: "Wonbin", role: "Visual", animalLook:"Cat", image: "images/Wonbin.jpg" },
+			{ name: "Sohee", role: "Vocalist", animalLook:"Dog", image: "images/Sohee.jpg" },
+			{ name: "Sungchan", role: "Rapper", animalLook:"Dog", image: "images/sungchan.jpg" }
 		]
 	},
 	"TXT": {
@@ -126,10 +126,10 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/Tomorrow_X_Together",
 		image: "images/result-riize.jpg",
 		members: [
-			{ name: "Yeonjun", role: "Dancer", image: "images/Shotaro.jpg" },
-			{ name: "Beomgyu", role: "Visual", image: "images/Wonbin.jpg" },
-			{ name: "Taehyun", role: "Vocalist", image: "images/Sohee.jpg" },
-			{ name: "Soobin", role: "Rapper", image: "images/sungchan.jpg" }
+			{ name: "Yeonjun", role: "Dancer", animalLook:"Cat", image: "images/Shotaro.jpg" },
+			{ name: "Beomgyu", role: "Visual", animalLook:"Hamster", image: "images/Wonbin.jpg" },
+			{ name: "Taehyun", role: "Vocalist", animalLook:"Dog", image: "images/Sohee.jpg" },
+			{ name: "Soobin", role: "Rapper", animalLook:"Rabbit", image: "images/sungchan.jpg" }
 		]
 	},
 	"Stray Kids": {
@@ -140,10 +140,10 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/Stray_Kids",
 		image: "images/Straykids.webp",
 		members: [
-			{ name: "Seungmin", role: "Vocalist", image: "images/bangchan.jpg" },
-			{ name: "Lee Know", role: "Dancer", image: "images/leenow.jpg" },
-			{ name: "Changbin", role: "Rapper", image: "images/changbin.jpg" },
-			{ name: "Hyunjin", role: "Visual", image: "images/hyunjin.jpg" }
+			{ name: "Seungmin", role: "Vocalist", animalLook:"Dog", image: "images/bangchan.jpg" },
+			{ name: "Lee Know", role: "Dancer", animalLook:"Dog", image: "images/leenow.jpg" },
+			{ name: "Changbin", role: "Rapper", animalLook:"Rabbit", image: "images/changbin.jpg" },
+			{ name: "Hyunjin", role: "Visual", animalLook:"Cat", image: "images/hyunjin.jpg" }
 		]
 	},
 
@@ -156,10 +156,10 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/Le_Sserafim",
 		image: "images/result-lesserafim.jpg",
 		members: [
-			{ name: "Sakura", role: "Visual", image: "images/sakura.jpg" },
-			{ name: "Kazuha", role: "Rapper", image: "images/kazuha.jpg" },
-			{ name: "Chaewon", role: "Vocalist", image: "images/chaewon.jpg" },
-			{ name: "Eunchae", role: "Dancer", image: "images/eunchae.jpg" }
+			{ name: "Sakura", role: "Visual", animalLook:"Rabbit", image: "images/sakura.jpg" },
+			{ name: "Kazuha", role: "Rapper", animalLook:"Cat", image: "images/kazuha.jpg" },
+			{ name: "Chaewon", role: "Vocalist", animalLook:"Hamster", image: "images/chaewon.jpg" },
+			{ name: "Eunchae", role: "Dancer", animalLook:"Dog", image: "images/eunchae.jpg" }
 		]
 	},
 	"njz": {
@@ -170,10 +170,24 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/NewJeans",
 		image: "images/NewJeans.webp",
 		members: [
-			{ name: "Minji", role: "Rapper", image: "images/minji.jpg" },
-			{ name: "Hanni", role: "Dancer", image: "images/hanni.jpg" },
-			{ name: "Danielle", role: "Visual", image: "images/danielle.jpg" },
-			{ name: "Hyein", role: "Vocalist", image: "images/hyein.jpg" }
+			{ name: "Minji", role: "Rapper", animalLook:"Dog", image: "images/minji.jpg" },
+			{ name: "Hanni", role: "Dancer", animalLook:"Hamster", image: "images/hanni.jpg" },
+			{ name: "Danielle", role: "Visual", animalLook:"Rabbit", image: "images/danielle.jpg" },
+			{ name: "Hyein", role: "Vocalist", animalLook:"Cat", image: "images/hyein.jpg" }
+		]
+	},
+	"illit": {
+		name: "illit",
+		groupType: "Girl",
+		genre: "Chill & Moody",
+		aesthetic: "Fresh & Youthful",
+		link: "https://en.wikipedia.org/wiki/Illit",
+		image: "images/illit.jpg",
+		members: [
+			{ name: "Moka", role: "Rapper", animalLook:"Dog", image: "images/moka.jpg" },
+			{ name: "Iroha", role: "Dancer", animalLook:"Hamster", image: "images/iroha.jpg" },
+			{ name: "Wonhee", role: "Visual", animalLook:"Rabbit", image: "images/wonhee.jpg" },
+			{ name: "Minju", role: "Vocalist", animalLook:"Cat", image: "images/minju.jpg" }
 		]
 	},
 	"aespa": {
@@ -184,10 +198,24 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/Aespa",
 		image: "images/aespa.jpg",
 		members: [
-			{ name: "Karina", role: "Dancer", image: "images/karina.jpg" },
-			{ name: "Winter", role: "Visual", image: "images/winter.jpg" },
-			{ name: "Giselle", role: "Rapper", image: "images/giselle.jpg" },
-			{ name: "Ningning", role: "Vocalist", image: "images/ningning.jpg" }
+			{ name: "Karina", role: "Dancer", animalLook:"Cat", image: "images/karina.jpg" },
+			{ name: "Winter", role: "Visual", animalLook:"Hamster", image: "images/winter.jpg" },
+			{ name: "Giselle", role: "Rapper", animalLook:"Dog", image: "images/giselle.jpg" },
+			{ name: "Ningning", role: "Vocalist", animalLook:"Cat",image: "images/ningning.jpg" }
+		]
+	},
+	"nmixx": {
+		name: "nmixx",
+		groupType: "Girl",
+		genre: "Experimental & Edgy",
+		aesthetic: "Futuristic & Edgy",
+		link: "https://en.wikipedia.org/wiki/Nmixx",
+		image: "images/nmixx.jpg",
+		members: [
+			{ name: "Bae", role: "Dancer", animalLook:"Dog", image: "images/karina.jpg" },
+			{ name: "Sullyoon", role: "Visual", animalLook:"Rabbit", image: "images/winter.jpg" },
+			{ name: "Kyujin", role: "Rapper", animalLook:"Cat", image: "images/giselle.jpg" },
+			{ name: "Haewon", role: "Vocalist", animalLook:"Hamster",image: "images/ningning.jpg" }
 		]
 	},
 	"babymonster": {
@@ -198,12 +226,27 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/Babymonster",
 		image: "images/babymonster.webp",
 		members: [
-			{ name: "Ruka", role: "Rapper", image: "images/ruka.jpg" },
-			{ name: "Ahyeon", role: "Vocalist", image: "images/ahyeon.jpg" },
-			{ name: "Chiquita", role: "Dancer", image: "images/chiquita.jpg" },
-			{ name: "Pharita", role: "Visual", image: "images/pharita.jpg" }
+			{ name: "Ruka", role: "Rapper", animalLook:"Cat", image: "images/ruka.jpg" },
+			{ name: "Ahyeon", role: "Vocalist", animalLook:"Dog", image: "images/ahyeon.jpg" },
+			{ name: "Chiquita", role: "Dancer", animalLook:"Hamster", image: "images/chiquita.jpg" },
+			{ name: "Pharita", role: "Visual", animalLook:"Rabbit", image: "images/pharita.jpg" }
+		]
+	},
+	"youngposse": {
+		name: "Young Posse",
+		groupType: "Girl",
+		genre: "Rap & Hip-pop",
+		aesthetic: "Dark & Mysterious",
+		link: "https://en.wikipedia.org/wiki/Young_Posse",
+		image: "images/Young_Posse.jpg",
+		members: [
+			{ name: "Sunhye", role: "Rapper", animalLook:"Hamster", image: "images/ruka.jpg" },
+			{ name: "Yeonjung", role: "Vocalist", animalLook:"Rabbit", image: "images/ahyeon.jpg" },
+			{ name: "Jiana", role: "Dancer", animalLook:"Cat", image: "images/chiquita.jpg" },
+			{ name: "Jieun", role: "Visual", animalLook:"Hamster", image: "images/pharita.jpg" }
 		]
 	}
+	
 };
 
 const sections = [
