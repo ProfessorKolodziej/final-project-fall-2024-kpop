@@ -156,10 +156,10 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/Le_Sserafim",
 		image: "images/lesserafim.jpg",
 		members: [
-			{ name: "Sakura", role: "Visual", animalLook: "Rabbit", image: "images/sakura.jpg" },
-			{ name: "Kazuha", role: "Rapper", animalLook: "Cat", image: "images/kazuha.jpg" },
-			{ name: "Chaewon", role: "Vocalist", animalLook: "Hamster", image: "images/chaewon.jpg" },
-			{ name: "Eunchae", role: "Dancer", animalLook: "Dog", image: "images/eunchae.jpg" }
+			{ name: "Sakura", role: "Visual", animalLook:"Rabbit", image: "images/sakura.jpg" },
+			{ name: "Kazuha", role: "Rapper", animalLook:"Cat", image: "images/kazuha.jpg" },
+			{ name: "Chaewon", role: "Vocalist", animalLook:"Hamster", image: "images/chaewon.jpg" },
+			{ name: "Eunchae", role: "Dancer", animalLook:"Dog", image: "images/eunchae.jpg" }
 		]
 	},
 	"njz": {
@@ -170,10 +170,10 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/NewJeans",
 		image: "images/NewJeans.webp",
 		members: [
-			{ name: "Minji", role: "Rapper", animalLook: "Dog", image: "images/minji.jpg" },
-			{ name: "Hanni", role: "Dancer", animalLook: "Hamster", image: "images/hanni.jpg" },
-			{ name: "Danielle", role: "Visual", animalLook: "Rabbit", image: "images/danielle.jpg" },
-			{ name: "Hyein", role: "Vocalist", animalLook: "Cat", image: "images/hyein.jpg" }
+			{ name: "Minji", role: "Rapper", animalLook:"Dog", image: "images/minji.jpg" },
+			{ name: "Haerin", role: "Dancer", animalLook:"Hamster", image: "images/haerin.jpg" },
+			{ name: "Danielle", role: "Visual", animalLook:"Rabbit", image: "images/danielle.jpg" },
+			{ name: "Hyein", role: "Vocalist", animalLook:"Cat", image: "images/hyein.jpg" }
 		]
 	},
 	"illit": {
@@ -184,10 +184,10 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/Illit",
 		image: "images/illit.webp",
 		members: [
-			{ name: "Moka", role: "Rapper", animalLook: "Dog", image: "images/moka.jpg" },
-			{ name: "Iroha", role: "Dancer", animalLook: "Hamster", image: "images/iroha.jpg" },
-			{ name: "Wonhee", role: "Visual", animalLook: "Rabbit", image: "images/wonhee.jpg" },
-			{ name: "Minju", role: "Vocalist", animalLook: "Cat", image: "images/minju.jpg" }
+			{ name: "Moka", role: "Rapper", animalLook:"Dog", image: "images/moka.jpg" },
+			{ name: "Iroha", role: "Dancer", animalLook:"Hamster", image: "images/iroha.jpeg" },
+			{ name: "Wonhee", role: "Visual", animalLook:"Rabbit", image: "images/wonhee.jpeg" },
+			{ name: "Minju", role: "Vocalist", animalLook:"Cat", image: "images/minju.jpeg" }
 		]
 	},
 	"aespa": {
@@ -198,10 +198,10 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/Aespa",
 		image: "images/aespa.jpg",
 		members: [
-			{ name: "Karina", role: "Dancer", animalLook: "Cat", image: "images/karina.jpg" },
-			{ name: "Winter", role: "Visual", animalLook: "Hamster", image: "images/winter.jpg" },
-			{ name: "Giselle", role: "Rapper", animalLook: "Dog", image: "images/giselle.jpg" },
-			{ name: "Ningning", role: "Vocalist", animalLook: "Cat", image: "images/ningning.jpg" }
+			{ name: "Karina", role: "Dancer", animalLook:"Cat", image: "images/karina.jpg" },
+			{ name: "Winter", role: "Visual", animalLook:"Hamster", image: "images/winter.jpg" },
+			{ name: "Giselle", role: "Rapper", animalLook:"Dog", image: "images/giselle.jpg" },
+			{ name: "Ningning", role: "Vocalist", animalLook:"Cat",image: "images/ningning.jpg" }
 		]
 	},
 	"nmixx": {
@@ -212,10 +212,10 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/Nmixx",
 		image: "images/nmixx.jpg",
 		members: [
-			{ name: "Bae", role: "Dancer", animalLook: "Dog", image: "images/karina.jpg" },
-			{ name: "Sullyoon", role: "Visual", animalLook: "Rabbit", image: "images/winter.jpg" },
-			{ name: "Kyujin", role: "Rapper", animalLook: "Cat", image: "images/giselle.jpg" },
-			{ name: "Haewon", role: "Vocalist", animalLook: "Hamster", image: "images/ningning.jpg" }
+			{ name: "Bae", role: "Dancer", animalLook:"Dog", image: "images/bae.jpg" },
+			{ name: "Sullyoon", role: "Visual", animalLook:"Rabbit", image: "images/sullyoon.jpg" },
+			{ name: "Kyujin", role: "Rapper", animalLook:"Cat", image: "images/kyujin.jpg" },
+			{ name: "Haewon", role: "Vocalist", animalLook:"Hamster",image: "images/haewon.jpg" }
 		]
 	},
 	"babymonster": {
@@ -226,10 +226,10 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/Babymonster",
 		image: "images/babymonster.webp",
 		members: [
-			{ name: "Ruka", role: "Rapper", animalLook: "Cat", image: "images/ruka.jpg" },
-			{ name: "Ahyeon", role: "Vocalist", animalLook: "Dog", image: "images/ahyeon.jpg" },
-			{ name: "Chiquita", role: "Dancer", animalLook: "Hamster", image: "images/chiquita.jpg" },
-			{ name: "Pharita", role: "Visual", animalLook: "Rabbit", image: "images/pharita.jpg" }
+			{ name: "Ruka", role: "Rapper", animalLook:"Cat", image: "images/ruka.jpeg" },
+			{ name: "Ahyeon", role: "Vocalist", animalLook:"Dog", image: "images/ahyeon.jpeg" },
+			{ name: "Chiquita", role: "Dancer", animalLook:"Hamster", image: "images/chiquita.jpg" },
+			{ name: "Pharita", role: "Visual", animalLook:"Rabbit", image: "images/pharita.jpg" }
 		]
 	},
 	"youngposse": {
@@ -418,30 +418,32 @@ function getGirlGroupMatch() {
 	} else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
 		return kpopGroups["njz"];
 	} else if (genre === "upbeat & happy" && aesthetic === "fresh & youthful") {
-		return kpopGroups["illit"];
-	} else if (genre === "experimental & edgy" && aesthetic === "futuristic & edgy") {
-		return kpopGroups["aespa"];
-	} else if (genre === "rap & hip-pop" && aesthetic === "vintage & retro") {
-		return kpopGroups["youngposse"];
-	} else {
-		return kpopGroups["babymonster"]; // Default if no match
-	}
+        return kpopGroups["illit"];
+    } else if (genre === "experimental & edgy" && aesthetic === "futuristic & edgy") {
+        return kpopGroups["aespa"];
+	} else if (genre === "rap & hip-pop" && aesthetic === "dark & mysterious") {
+        return kpopGroups["babymonster"];
+    } else {
+        return kpopGroups["aespa"]; // Default if no match
+    }
 }
 
 // Logic to match Either group
 function getAnyGroupMatch() {
-	const genre = formatText(userResults.genre);
-	const aesthetic = formatText(userResults.aesthetic);
-
-	if (genre === "upbeat & happy" && aesthetic === "fresh & youthful") {
-		return kpopGroups["TWS"];
-	} else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
-		return kpopGroups["TXT"];
-	} else if (genre === "chill & moody" && aesthetic === "fresh & youthful") {
-		return kpopGroups["illit"];
-	} else {
-		return kpopGroups["nmixx"]; // Default if no match
-	}
+    const genre = formatText(userResults.genre);
+    const aesthetic = formatText(userResults.aesthetic);
+    
+    if (genre === "upbeat & happy" && aesthetic === "fresh & youthful") {
+        return kpopGroups["TWS"];
+    } else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
+        return kpopGroups["TXT"];
+    } else if (genre === "chill & moody" && aesthetic === "fresh & youthful") {
+        return kpopGroups["illit"];
+	} else if (genre === "rap & hip-pop" && aesthetic === "vintage & retro") {
+			return kpopGroups["youngposse"];
+    } else {
+        return kpopGroups["TWS"]; // Default if no match
+    }
 }
 
 // Update result with background image
@@ -524,34 +526,34 @@ function getBiasMatch() {
 			return currentMatchedGroup.members[0]; // Default to Seungmin
 		}
 
-	} else {
-		// For other groups, find best match based on both role and animal look
-		let bestMatch = currentMatchedGroup.members[0];
-
-		// Check for exact match (both role and animal look)
-		for (const member of currentMatchedGroup.members) {
-			if (formatText(member.role) === role && formatText(member.animalLook) === animalLook) {
-				return member; // Perfect match, return immediately
-			}
-		}
-
-		// If no perfect match, prioritize matching by role
-		for (const member of currentMatchedGroup.members) {
-			if (formatText(member.role) === role) {
-				return member;
-			}
-		}
-
-		// If still no match, try matching just by animal look
-		for (const member of currentMatchedGroup.members) {
-			if (formatText(member.animalLook) === animalLook) {
-				return member;
-			}
-		}
-
-		// If no matches at all, return the first member as default
-		return bestMatch;
-	}
+    } else {
+        // For other groups, find best match based on both role and animal look
+        let bestMatch = currentMatchedGroup.members[0];
+        
+        // Check for exact match (both role and animal look)
+        for (const member of currentMatchedGroup.members) {
+            if (formatText(member.role) === role && formatText(member.animalLook) === animalLook) {
+                return member; // Perfect match, return immediately
+            }
+        }
+        
+        // If no perfect match, prioritize matching by role
+        for (const member of currentMatchedGroup.members) {
+            if (formatText(member.role) === role) {
+                return member;
+            }
+        }
+        
+        // If still no match, try matching just by animal look
+        for (const member of currentMatchedGroup.members) {
+            if (formatText(member.animalLook) === animalLook) {
+                return member;
+            }
+        }
+        
+        // If no matches at all, return the first member as default
+        return bestMatch;
+    }
 }
 
 // Function to show bias result
