@@ -198,7 +198,7 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/Aespa",
 		image: "images/aespa.jpg",
 		members: [
-			{ name: "Karina", role: "Dancer", animalLook:"Cat", image: "images/karina.jpg" },
+			{ name: "Karina", role: "Dancer", animalLook:"Cat", image: "images/karina.webp" },
 			{ name: "Winter", role: "Visual", animalLook:"Hamster", image: "images/winter.jpg" },
 			{ name: "Giselle", role: "Rapper", animalLook:"Dog", image: "images/giselle.jpg" },
 			{ name: "Ningning", role: "Vocalist", animalLook:"Cat",image: "images/ningning.jpg" }
