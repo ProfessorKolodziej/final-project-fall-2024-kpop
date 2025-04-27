@@ -285,6 +285,18 @@ img {
 	margin-bottom: 20px;
 }
 
+.result-group,
+.result-bias {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.result-group.show,
+.result-bias.show {
+	display: flex;
+}
 
 /* This uses the same value as --size-xs. */
 @media screen and (width >=768px) {
@@ -465,7 +477,6 @@ img {
 	}
 
 	.result-group {
-		background-image: url("../images/result-nct127.jpg");
 		background-size: cover;
 		background-position: center;
 		min-height: 100vh;
@@ -536,17 +547,4 @@ img {
 		right: 30px;
 		gap: 15px;
 	}
-}
-
-.result-group,
-.result-bias {
-	display: none;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.result-group.show,
-.result-bias.show {
-	display: flex;
 }
