@@ -171,7 +171,7 @@ const kpopGroups = {
 		image: "images/NewJeans.webp",
 		members: [
 			{ name: "Minji", role: "Rapper", animalLook:"Dog", image: "images/minji.jpg" },
-			{ name: "Hanni", role: "Dancer", animalLook:"Hamster", image: "images/hanni.jpg" },
+			{ name: "Haerin", role: "Dancer", animalLook:"Hamster", image: "images/haerin.jpg" },
 			{ name: "Danielle", role: "Visual", animalLook:"Rabbit", image: "images/danielle.jpg" },
 			{ name: "Hyein", role: "Vocalist", animalLook:"Cat", image: "images/hyein.jpg" }
 		]
@@ -185,9 +185,9 @@ const kpopGroups = {
 		image: "images/illit.webp",
 		members: [
 			{ name: "Moka", role: "Rapper", animalLook:"Dog", image: "images/moka.jpg" },
-			{ name: "Iroha", role: "Dancer", animalLook:"Hamster", image: "images/iroha.jpg" },
-			{ name: "Wonhee", role: "Visual", animalLook:"Rabbit", image: "images/wonhee.jpg" },
-			{ name: "Minju", role: "Vocalist", animalLook:"Cat", image: "images/minju.jpg" }
+			{ name: "Iroha", role: "Dancer", animalLook:"Hamster", image: "images/iroha.jpeg" },
+			{ name: "Wonhee", role: "Visual", animalLook:"Rabbit", image: "images/wonhee.jpeg" },
+			{ name: "Minju", role: "Vocalist", animalLook:"Cat", image: "images/minju.jpeg" }
 		]
 	},
 	"aespa": {
@@ -212,10 +212,10 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/Nmixx",
 		image: "images/nmixx.jpg",
 		members: [
-			{ name: "Bae", role: "Dancer", animalLook:"Dog", image: "images/karina.jpg" },
-			{ name: "Sullyoon", role: "Visual", animalLook:"Rabbit", image: "images/winter.jpg" },
-			{ name: "Kyujin", role: "Rapper", animalLook:"Cat", image: "images/giselle.jpg" },
-			{ name: "Haewon", role: "Vocalist", animalLook:"Hamster",image: "images/ningning.jpg" }
+			{ name: "Bae", role: "Dancer", animalLook:"Dog", image: "images/bae.jpg" },
+			{ name: "Sullyoon", role: "Visual", animalLook:"Rabbit", image: "images/sullyoon.jpg" },
+			{ name: "Kyujin", role: "Rapper", animalLook:"Cat", image: "images/kyujin.jpg" },
+			{ name: "Haewon", role: "Vocalist", animalLook:"Hamster",image: "images/haewon.jpg" }
 		]
 	},
 	"babymonster": {
@@ -226,8 +226,8 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/Babymonster",
 		image: "images/babymonster.webp",
 		members: [
-			{ name: "Ruka", role: "Rapper", animalLook:"Cat", image: "images/ruka.jpg" },
-			{ name: "Ahyeon", role: "Vocalist", animalLook:"Dog", image: "images/ahyeon.jpg" },
+			{ name: "Ruka", role: "Rapper", animalLook:"Cat", image: "images/ruka.jpeg" },
+			{ name: "Ahyeon", role: "Vocalist", animalLook:"Dog", image: "images/ahyeon.jpeg" },
 			{ name: "Chiquita", role: "Dancer", animalLook:"Hamster", image: "images/chiquita.jpg" },
 			{ name: "Pharita", role: "Visual", animalLook:"Rabbit", image: "images/pharita.jpg" }
 		]
@@ -421,10 +421,10 @@ function getGirlGroupMatch() {
         return kpopGroups["illit"];
     } else if (genre === "experimental & edgy" && aesthetic === "futuristic & edgy") {
         return kpopGroups["aespa"];
-	} else if (genre === "rap & hip-pop" && aesthetic === "vintage & retro") {
-        return kpopGroups["youngposse"];
+	} else if (genre === "rap & hip-pop" && aesthetic === "dark & mysterious") {
+        return kpopGroups["babymonster"];
     } else {
-        return kpopGroups["babymonster"]; // Default if no match
+        return kpopGroups["aespa"]; // Default if no match
     }
 }
 
@@ -439,8 +439,10 @@ function getAnyGroupMatch() {
         return kpopGroups["TXT"];
     } else if (genre === "chill & moody" && aesthetic === "fresh & youthful") {
         return kpopGroups["illit"];
+	} else if (genre === "rap & hip-pop" && aesthetic === "vintage & retro") {
+			return kpopGroups["youngposse"];
     } else {
-        return kpopGroups["nmixx"]; // Default if no match
+        return kpopGroups["TWS"]; // Default if no match
     }
 }
 
