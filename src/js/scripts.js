@@ -437,12 +437,16 @@ function getAnyGroupMatch() {
         return kpopGroups["TWS"];
     } else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
         return kpopGroups["TXT"];
+	} else if (genre === "upbeat & happy" && aesthetic === "futuristic & edgy") {
+		return kpopGroups["NCT Dream"];
     } else if (genre === "chill & moody" && aesthetic === "fresh & youthful") {
         return kpopGroups["illit"];
 	} else if (genre === "rap & hip-pop" && aesthetic === "vintage & retro") {
 			return kpopGroups["youngposse"];
+	} else if (genre === "rap & hip-pop" && aesthetic === "dark & mysterious") {
+			return kpopGroups["Stray Kids"];
     } else {
-        return kpopGroups["TWS"]; // Default if no match
+        return kpopGroups["njz"]; // Default if no match
     }
 }
 
