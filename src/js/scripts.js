@@ -110,7 +110,7 @@ const kpopGroups = {
 		genre: "Chill & Moody",
 		aesthetic: "Vintage / Retro",
 		link: "https://en.wikipedia.org/wiki/Riize",
-		image: "images/result-riize.jpg",
+		image: "images/RIIZE.jpeg",
 		members: [
 			{ name: "Shotaro", role: "Dancer", animalLook:"Hamster", image: "images/Shotaro.jpg" },
 			{ name: "Wonbin", role: "Visual", animalLook:"Cat", image: "images/Wonbin.jpg" },
@@ -124,7 +124,7 @@ const kpopGroups = {
 		genre: "Chill & Moody",
 		aesthetic: "Vintage / Retro",
 		link: "https://en.wikipedia.org/wiki/Tomorrow_X_Together",
-		image: "images/result-riize.jpg",
+		image: "images/txt.wepbp",
 		members: [
 			{ name: "Yeonjun", role: "Dancer", animalLook:"Cat", image: "images/Shotaro.jpg" },
 			{ name: "Beomgyu", role: "Visual", animalLook:"Hamster", image: "images/Wonbin.jpg" },
@@ -154,7 +154,7 @@ const kpopGroups = {
 		genre: "Upbeat & Happy",
 		aesthetic: "Vintage / Retro",
 		link: "https://en.wikipedia.org/wiki/Le_Sserafim",
-		image: "images/result-lesserafim.jpg",
+		image: "images/lesserafim.jpg",
 		members: [
 			{ name: "Sakura", role: "Visual", animalLook:"Rabbit", image: "images/sakura.jpg" },
 			{ name: "Kazuha", role: "Rapper", animalLook:"Cat", image: "images/kazuha.jpg" },
@@ -365,71 +365,100 @@ document.querySelectorAll(".quiz-3-btn").forEach(button => {
 });
 
 // match the group
+// Helper function to standardize text formatting
+function formatText(text) {
+    return text.trim().toLowerCase();
+}
+
+// Match the group function
 function getGroupMatch() {
-	let matchedGroup = null;
+    let matchedGroup = null;
 
-	// First, filter by gender preference (Boy Group, Girl Group, or Either)
-	if (userResults.gender === "Boy Group") {
-		matchedGroup = getBoyGroupMatch();
-	} else if (userResults.gender === "Girl Group") {
-		matchedGroup = getGirlGroupMatch();
-	} else if (userResults.gender === "Either") {
-		matchedGroup = getAnyGroupMatch();
-	}
+    // First, filter by gender preference with standardized text
+    const gender = formatText(userResults.gender);
 
-	return matchedGroup;
+    if (gender === "boy group") {
+        matchedGroup = getBoyGroupMatch();
+    } else if (gender === "girl group") {
+        matchedGroup = getGirlGroupMatch();
+    } else if (gender === "either") {
+        matchedGroup = getAnyGroupMatch();
+    }
+
+    return matchedGroup;
 }
 
 // Logic to match Boy Groups
 function getBoyGroupMatch() {
-	if (userResults.genre === "Upbeat" && userResults.aesthetic === "Fresh & Youthful") {
-		return kpopGroups["Boynextdoor"];
-	} else if (userResults.genre === "Experimental & Edgy" && userResults.aesthetic === "Futuristic & Edgy") {
-		return kpopGroups["NCT 127"];
-	} else if (userResults.genre === "Chill & Moody" && userResults.aesthetic === "Vintage / Retro") {
-		return kpopGroups["Riize"];
-	} else {
-		return kpopGroups["Stray Kids"]; // Default if no match
-	}
+    const genre = formatText(userResults.genre);
+    const aesthetic = formatText(userResults.aesthetic);
+    
+    if (genre === "upbeat & happy" && aesthetic === "fresh & youthful") {
+        return kpopGroups["Boynextdoor"];
+    } else if (genre === "experimental & edgy" && aesthetic === "futuristic & edgy") {
+        return kpopGroups["NCT 127"];
+    } else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
+        return kpopGroups["Riize"];
+    } else {
+        return kpopGroups["Stray Kids"]; // Default if no match
+    }
 }
 
 // Logic to match Girl Groups
 function getGirlGroupMatch() {
-	if (userResults.genre === "Upbeat" && userResults.aesthetic === "Vintage / Retro") {
-		return kpopGroups["Le sserafim"];
-	} else if (userResults.genre === "Chill & Moody" && userResults.aesthetic === "Fresh & Youthful") {
-		return kpopGroups["njz"];
-	} else if (userResults.genre === "Experimental & Edgy" && userResults.aesthetic === "Futuristic & Edgy") {
-		return kpopGroups["aespa"];
-	} else {
-		return kpopGroups["babymonster"]; // Default if no match
-	}
+    const genre = formatText(userResults.genre);
+    const aesthetic = formatText(userResults.aesthetic);
+    
+    if (genre === "upbeat & happy" && aesthetic === "vintage & retro") {
+        return kpopGroups["Le sserafim"];
+    } else if (genre === "chill & moody" && aesthetic === "fresh & youthful") {
+        return kpopGroups["njz"];
+    } else if (genre === "experimental & edgy" && aesthetic === "futuristic & edgy") {
+        return kpopGroups["aespa"];
+    } else {
+        return kpopGroups["babymonster"]; // Default if no match
+    }
 }
 
 // Logic to match Either group
 function getAnyGroupMatch() {
-	if (userResults.genre === "Upbeat" && userResults.aesthetic === "Fresh & Youthful") {
-		return kpopGroups["Boynextdoor"];
-	} else if (userResults.genre === "Chill & Moody" && userResults.aesthetic === "Vintage / Retro") {
-		return kpopGroups["Riize"];
-	} else if (userResults.genre === "Chill & Moody" && userResults.aesthetic === "Fresh & Youthful") {
-		return kpopGroups["njz"];
-	} else {
-		return kpopGroups["Le sserafim"]; // Default if no match
-	}
+    const genre = formatText(userResults.genre);
+    const aesthetic = formatText(userResults.aesthetic);
+    
+    if (genre === "upbeat & happy" && aesthetic === "fresh & youthful") {
+        return kpopGroups["TWS"];
+    } else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
+        return kpopGroups["TXT"];
+    } else if (genre === "chill & moody" && aesthetic === "fresh & youthful") {
+        return kpopGroups["illit"];
+    } else {
+        return kpopGroups["Le sserafim"]; // Default if no match
+    }
 }
 
-// update result
+// Update result with background image
 function showGroupResult() {
-	const matchedGroup = getGroupMatch();
+    const matchedGroup = getGroupMatch();
 
-	// Update the result page with the matched group's data
-	document.querySelector(".result-name").textContent = matchedGroup.name;
-	document.querySelector(".result-images").src = matchedGroup.image;
-	document.querySelector(".result-group-btn-list a").href = matchedGroup.link;
+    if (matchedGroup) {
+        // Update the result page with the matched group's data
+        document.querySelector(".result-name").textContent = matchedGroup.name;
+        document.querySelector(".result-images").src = matchedGroup.image;
+        document.querySelector(".result-group-btn-list a").href = matchedGroup.link;
+        
+        // Override the background
+        const resultSection = document.querySelector(".result-group");
+        resultSection.style.backgroundImage = `url(${matchedGroup.image})`;
+        resultSection.style.backgroundSize = "cover";
+        resultSection.style.backgroundPosition = "center";
+    }
 }
 
-document.querySelector(".result-btn").addEventListener("click", () => {
-	showGroupResult();  // Show the result based on user selection
-	showSection(sections[5]);  // Show the result group page
+// Don't attach to just one button - update the quiz-3-btn click handler instead
+document.querySelectorAll(".quiz-3-btn").forEach(button => {
+    button.addEventListener("click", () => {
+        userResults.aesthetic = button.textContent;
+        showGroupResult();  // Calculate and show result immediately
+        showSection(sections[4]);  // Show the result group page
+    });
 });
