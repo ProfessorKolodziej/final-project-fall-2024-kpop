@@ -246,7 +246,7 @@ const kpopGroups = {
 			{ name: "Jieun", role: "Visual", animalLook:"Hamster", image: "images/pharita.jpg" }
 		]
 	}
-	
+
 };
 
 const sections = [
@@ -392,7 +392,7 @@ function getGroupMatch() {
 function getBoyGroupMatch() {
     const genre = formatText(userResults.genre);
     const aesthetic = formatText(userResults.aesthetic);
-    
+
     if (genre === "upbeat & happy" && aesthetic === "fresh & youthful") {
         return kpopGroups["Boynextdoor"];
     } else if (genre === "experimental & edgy" && aesthetic === "futuristic & edgy") {
@@ -412,7 +412,7 @@ function getBoyGroupMatch() {
 function getGirlGroupMatch() {
     const genre = formatText(userResults.genre);
     const aesthetic = formatText(userResults.aesthetic);
-    
+
     if (genre === "upbeat & happy" && aesthetic === "vintage & retro") {
         return kpopGroups["Le sserafim"];
     } else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
@@ -432,7 +432,7 @@ function getGirlGroupMatch() {
 function getAnyGroupMatch() {
     const genre = formatText(userResults.genre);
     const aesthetic = formatText(userResults.aesthetic);
-    
+
     if (genre === "upbeat & happy" && aesthetic === "fresh & youthful") {
         return kpopGroups["TWS"];
     } else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
@@ -453,7 +453,7 @@ function showGroupResult() {
         document.querySelector(".result-name").textContent = matchedGroup.name;
         document.querySelector(".result-images").src = matchedGroup.image;
         document.querySelector(".result-group-btn-list a").href = matchedGroup.link;
-        
+
         // Override the background
         const resultSection = document.querySelector(".result-group");
         resultSection.style.backgroundImage = `url(${matchedGroup.image})`;
@@ -476,13 +476,13 @@ let currentMatchedGroup = null;
 
 function showGroupResult() {
     currentMatchedGroup = getGroupMatch();
-    
+
     if (currentMatchedGroup) {
         // Update the result page with the matched group's data
         document.querySelector(".result-name").textContent = currentMatchedGroup.name;
         document.querySelector(".result-images").src = currentMatchedGroup.image;
         document.querySelector(".result-group-btn-list a").href = currentMatchedGroup.link;
-        
+
         // Override the background
         const resultSection = document.querySelector(".result-group");
         resultSection.style.backgroundImage = `url(${currentMatchedGroup.image})`;
@@ -497,11 +497,11 @@ function getBiasMatch() {
     if (!currentMatchedGroup) {
         return null;
     }
-    
+
     // Get standardized role and animal look
     const role = formatText(userResults.role);
     const animalLook = formatText(userResults.animalLook);
-    
+
     // Check which group we're working with
     if (currentMatchedGroup.name === "NCT 127") {
         // NCT 127 specific matching
@@ -533,28 +533,28 @@ function getBiasMatch() {
     } else {
         // For other groups, find best match based on both role and animal look
         let bestMatch = currentMatchedGroup.members[0];
-        
+
         // Check for exact match (both role and animal look)
         for (const member of currentMatchedGroup.members) {
             if (formatText(member.role) === role && formatText(member.animalLook) === animalLook) {
                 return member; // Perfect match, return immediately
             }
         }
-        
+
         // If no perfect match, prioritize matching by role
         for (const member of currentMatchedGroup.members) {
             if (formatText(member.role) === role) {
                 return member;
             }
         }
-        
+
         // If still no match, try matching just by animal look
         for (const member of currentMatchedGroup.members) {
             if (formatText(member.animalLook) === animalLook) {
                 return member;
             }
         }
-        
+
         // If no matches at all, return the first member as default
         return bestMatch;
     }
@@ -563,12 +563,12 @@ function getBiasMatch() {
 // Function to show bias result
 function showBiasResult() {
     const matchedBias = getBiasMatch();
-    
+
     if (matchedBias) {
         // Update the bias result page
         document.querySelector(".result-bias .result-name").textContent = matchedBias.name;
         document.querySelector(".result-bias .result-images").src = matchedBias.image;
-        
+
         // Update background
         const biasSection = document.querySelector(".result-bias");
         biasSection.style.backgroundImage = `url(${matchedBias.image})`;
