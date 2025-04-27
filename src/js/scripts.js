@@ -157,7 +157,7 @@ const kpopGroups = {
 		image: "images/lesserafim.jpg",
 		members: [
 			{ name: "Sakura", role: "Visual", animalLook:"Rabbit", image: "images/sakura.jpg" },
-			{ name: "Kazuha", role: "Rapper", animalLook:"Cat", image: "images/kazuha.jpg" },
+			{ name: "Yunjin", role: "Rapper", animalLook:"Cat", image: "images/yunjin.jpg" },
 			{ name: "Chaewon", role: "Vocalist", animalLook:"Hamster", image: "images/chaewon.jpg" },
 			{ name: "Eunchae", role: "Dancer", animalLook:"Dog", image: "images/eunchae.jpg" }
 		]
