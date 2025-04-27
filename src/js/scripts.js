@@ -157,7 +157,7 @@ const kpopGroups = {
 		image: "images/lesserafim.jpg",
 		members: [
 			{ name: "Sakura", role: "Visual", animalLook:"Rabbit", image: "images/sakura.jpg" },
-			{ name: "Kazuha", role: "Rapper", animalLook:"Cat", image: "images/kazuha.jpg" },
+			{ name: "Yunjin", role: "Rapper", animalLook:"Cat", image: "images/yunjin.jpg" },
 			{ name: "Chaewon", role: "Vocalist", animalLook:"Hamster", image: "images/chaewon.jpg" },
 			{ name: "Eunchae", role: "Dancer", animalLook:"Dog", image: "images/eunchae.jpg" }
 		]
@@ -198,7 +198,7 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/Aespa",
 		image: "images/aespa.jpg",
 		members: [
-			{ name: "Karina", role: "Dancer", animalLook:"Cat", image: "images/karina.jpg" },
+			{ name: "Karina", role: "Dancer", animalLook:"Cat", image: "images/karina.webp" },
 			{ name: "Winter", role: "Visual", animalLook:"Hamster", image: "images/winter.jpg" },
 			{ name: "Giselle", role: "Rapper", animalLook:"Dog", image: "images/giselle.jpg" },
 			{ name: "Ningning", role: "Vocalist", animalLook:"Cat",image: "images/ningning.jpg" }
@@ -437,12 +437,16 @@ function getAnyGroupMatch() {
         return kpopGroups["TWS"];
     } else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
         return kpopGroups["TXT"];
+	} else if (genre === "upbeat & happy" && aesthetic === "futuristic & edgy") {
+		return kpopGroups["NCT Dream"];
     } else if (genre === "chill & moody" && aesthetic === "fresh & youthful") {
         return kpopGroups["illit"];
 	} else if (genre === "rap & hip-pop" && aesthetic === "vintage & retro") {
 			return kpopGroups["youngposse"];
+	} else if (genre === "rap & hip-pop" && aesthetic === "dark & mysterious") {
+			return kpopGroups["Stray Kids"];
     } else {
-        return kpopGroups["TWS"]; // Default if no match
+        return kpopGroups["njz"]; // Default if no match
     }
 }
 
