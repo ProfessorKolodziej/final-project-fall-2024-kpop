@@ -124,7 +124,7 @@ const kpopGroups = {
 		genre: "Chill & Moody",
 		aesthetic: "Vintage / Retro",
 		link: "https://en.wikipedia.org/wiki/Tomorrow_X_Together",
-		image: "images/txt.webp",
+		image: "images/txt.jpg",
 		members: [
 			{ name: "Yeonjun", role: "Dancer", animalLook:"Cat", image: "images/Shotaro.jpg" },
 			{ name: "Beomgyu", role: "Visual", animalLook:"Hamster", image: "images/Wonbin.jpg" },
@@ -364,7 +364,7 @@ document.querySelectorAll(".quiz-3-btn").forEach(button => {
 	});
 });
 
-// match the group
+
 // Helper function to standardize text formatting
 function formatText(text) {
     return text.trim().toLowerCase();
@@ -397,10 +397,14 @@ function getBoyGroupMatch() {
         return kpopGroups["Boynextdoor"];
     } else if (genre === "experimental & edgy" && aesthetic === "futuristic & edgy") {
         return kpopGroups["NCT 127"];
+	} else if (genre === "upbeat & happy" && aesthetic === "futuristic & edgy") {
+        return kpopGroups["NCT Dream"];
     } else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
         return kpopGroups["Riize"];
+	} else if (genre === "rap & hip-pop" && aesthetic === "dark & mysterious") {
+        return kpopGroups["Stray Kids"];
     } else {
-        return kpopGroups["Stray Kids"]; // Default if no match
+        return kpopGroups["TXT"]; // Default if no match
     }
 }
 
@@ -413,8 +417,12 @@ function getGirlGroupMatch() {
         return kpopGroups["Le sserafim"];
     } else if (genre === "chill & moody" && aesthetic === "fresh & youthful") {
         return kpopGroups["njz"];
+	} else if (genre === "upbeat & happy" && aesthetic === "fresh & youthful") {
+        return kpopGroups["illit"];
     } else if (genre === "experimental & edgy" && aesthetic === "futuristic & edgy") {
         return kpopGroups["aespa"];
+	} else if (genre === "rap & hip-pop" && aesthetic === "vintage & retro") {
+        return kpopGroups["youngposse"];
     } else {
         return kpopGroups["babymonster"]; // Default if no match
     }
