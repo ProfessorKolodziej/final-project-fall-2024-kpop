@@ -464,10 +464,6 @@ img {
 		width: 100vw;
 	}
 
-	.result-images {
-		display: none;
-	}
-
 	.result-group {
 		background-image: url("../images/result-nct127.jpg");
 		background-size: cover;
