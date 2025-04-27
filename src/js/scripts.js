@@ -313,7 +313,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	});
 
 	document.querySelectorAll(".result-btn").forEach(btn => {
-		if (btn.textContent.toLowerCase().includes("match group again")) {
+		if (btn.textContent.toLowerCase().includes("match again")) {
 			btn.addEventListener("click", () => {
 				showSection(sections[1]);
 			});
@@ -432,7 +432,7 @@ function getAnyGroupMatch() {
     } else if (genre === "chill & moody" && aesthetic === "fresh & youthful") {
         return kpopGroups["illit"];
     } else {
-        return kpopGroups["Le sserafim"]; // Default if no match
+        return kpopGroups["nmixx"]; // Default if no match
     }
 }
 
@@ -462,3 +462,5 @@ document.querySelectorAll(".quiz-3-btn").forEach(button => {
         showSection(sections[4]);  // Show the result group page
     });
 });
+
+// Logic to match Bias
