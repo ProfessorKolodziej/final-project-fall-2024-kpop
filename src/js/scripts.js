@@ -124,7 +124,7 @@ const kpopGroups = {
 		genre: "Chill & Moody",
 		aesthetic: "Vintage / Retro",
 		link: "https://en.wikipedia.org/wiki/Tomorrow_X_Together",
-		image: "images/txt.wepbp",
+		image: "images/txt.webp",
 		members: [
 			{ name: "Yeonjun", role: "Dancer", animalLook:"Cat", image: "images/Shotaro.jpg" },
 			{ name: "Beomgyu", role: "Visual", animalLook:"Hamster", image: "images/Wonbin.jpg" },
@@ -182,7 +182,7 @@ const kpopGroups = {
 		genre: "Chill & Moody",
 		aesthetic: "Fresh & Youthful",
 		link: "https://en.wikipedia.org/wiki/Illit",
-		image: "images/illit.jpg",
+		image: "images/illit.webp",
 		members: [
 			{ name: "Moka", role: "Rapper", animalLook:"Dog", image: "images/moka.jpg" },
 			{ name: "Iroha", role: "Dancer", animalLook:"Hamster", image: "images/iroha.jpg" },
