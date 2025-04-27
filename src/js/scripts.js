@@ -43,10 +43,10 @@ const kpopGroups = {
 		link: "https://en.wikipedia.org/wiki/NCT_127",
 		image: "images/result-nct127.jpg",
 		members: [
-			{ name: "Jaehyun", role: "Visual", animalLook:"Dog", image: "images/jaehyun.jpg" },
+			{ name: "Jaehyun", role: "Visual", animalLook:"Dog", image: "images/jaehyun.jpeg" },
 			{ name: "Taeyong", role: "Dancer", animalLook:"Cat", image: "images/taeyong.jpg" },
 			{ name: "Doyoung", role: "Vocalist",animalLook:"Rabbit", image: "images/doyoung.jpg" },
-			{ name: "Mark", role: "Rapper", animalLook:"Cat", image: "images/result-marklee" },
+			{ name: "Mark", role: "Rapper", animalLook:"Cat", image: "images/result-marklee.jpg" },
 		]
 	},
 	"NCT Dream": {
@@ -471,4 +471,124 @@ document.querySelectorAll(".quiz-3-btn").forEach(button => {
     });
 });
 
-// Logic to match Bias
+// Store the matched group
+let currentMatchedGroup = null;
+
+function showGroupResult() {
+    currentMatchedGroup = getGroupMatch();
+    
+    if (currentMatchedGroup) {
+        // Update the result page with the matched group's data
+        document.querySelector(".result-name").textContent = currentMatchedGroup.name;
+        document.querySelector(".result-images").src = currentMatchedGroup.image;
+        document.querySelector(".result-group-btn-list a").href = currentMatchedGroup.link;
+        
+        // Override the background
+        const resultSection = document.querySelector(".result-group");
+        resultSection.style.backgroundImage = `url(${currentMatchedGroup.image})`;
+        resultSection.style.backgroundSize = "cover";
+        resultSection.style.backgroundPosition = "center";
+    }
+}
+
+// Add this function to get bias match
+function getBiasMatch() {
+    // Check if we have a group match
+    if (!currentMatchedGroup) {
+        return null;
+    }
+    
+    // Get standardized role and animal look
+    const role = formatText(userResults.role);
+    const animalLook = formatText(userResults.animalLook);
+    
+    // Check which group we're working with
+    if (currentMatchedGroup.name === "NCT 127") {
+        // NCT 127 specific matching
+        if (role === "visual") {
+            return currentMatchedGroup.members[0]; // Jaehyun
+        } else if (role === "dancer") {
+            return currentMatchedGroup.members[1]; // Taeyong
+        } else if (role === "vocalist") {
+            return currentMatchedGroup.members[2]; // Doyoung
+        } else if (role === "rapper") {
+            return currentMatchedGroup.members[3]; // Mark
+        } else {
+            return currentMatchedGroup.members[0]; // Default to Jaehyun
+        }
+    } else if (currentMatchedGroup.name === "Stray Kids") {
+        // Stray Kids specific matching
+        if (role === "vocalist") {
+            return currentMatchedGroup.members[0]; // Seungmin
+        } else if (role === "dancer") {
+            return currentMatchedGroup.members[1]; // Lee Know
+        } else if (role === "rapper") {
+            return currentMatchedGroup.members[2]; // Changbin
+        } else if (role === "visual") {
+            return currentMatchedGroup.members[3]; // Hyunjin
+        } else {
+            return currentMatchedGroup.members[0]; // Default to Seungmin
+        }
+
+    } else {
+        // For other groups, find best match based on both role and animal look
+        let bestMatch = currentMatchedGroup.members[0];
+        
+        // Check for exact match (both role and animal look)
+        for (const member of currentMatchedGroup.members) {
+            if (formatText(member.role) === role && formatText(member.animalLook) === animalLook) {
+                return member; // Perfect match, return immediately
+            }
+        }
+        
+        // If no perfect match, prioritize matching by role
+        for (const member of currentMatchedGroup.members) {
+            if (formatText(member.role) === role) {
+                return member;
+            }
+        }
+        
+        // If still no match, try matching just by animal look
+        for (const member of currentMatchedGroup.members) {
+            if (formatText(member.animalLook) === animalLook) {
+                return member;
+            }
+        }
+        
+        // If no matches at all, return the first member as default
+        return bestMatch;
+    }
+}
+
+// Function to show bias result
+function showBiasResult() {
+    const matchedBias = getBiasMatch();
+    
+    if (matchedBias) {
+        // Update the bias result page
+        document.querySelector(".result-bias .result-name").textContent = matchedBias.name;
+        document.querySelector(".result-bias .result-images").src = matchedBias.image;
+        
+        // Update background
+        const biasSection = document.querySelector(".result-bias");
+        biasSection.style.backgroundImage = `url(${matchedBias.image})`;
+        biasSection.style.backgroundSize = "cover";
+        biasSection.style.backgroundPosition = "center";
+    }
+}
+
+// Add these event listeners to capture role and animal look choices
+document.querySelectorAll(".quiz-4-btn").forEach(button => {
+    button.addEventListener("click", () => {
+        userResults.role = button.textContent;
+        showSection(sections[5]); // Go to animal look question
+    });
+});
+
+document.querySelectorAll(".quiz-5-btn").forEach(button => {
+    button.addEventListener("click", () => {
+        userResults.animalLook = button.textContent;
+        showBiasResult(); // Show the bias result
+        showSection(sections[7]); // Show the bias result page
+    });
+});
