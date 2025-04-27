@@ -415,7 +415,7 @@ function getGirlGroupMatch() {
     
     if (genre === "upbeat & happy" && aesthetic === "vintage & retro") {
         return kpopGroups["Le sserafim"];
-    } else if (genre === "chill & moody" && aesthetic === "fresh & youthful") {
+    } else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
         return kpopGroups["njz"];
 	} else if (genre === "upbeat & happy" && aesthetic === "fresh & youthful") {
         return kpopGroups["illit"];
