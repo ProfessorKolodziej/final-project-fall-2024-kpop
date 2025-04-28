@@ -191,10 +191,10 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/0ghlgldX5Dd6720Q3qFyQB"
 		},
 		members: [
-			{ name: "Yeonjun", role: "Dancer", animalLook: "Cat", image: "images/Shotaro.jpg" },
-			{ name: "Beomgyu", role: "Visual", animalLook: "Hamster", image: "images/Wonbin.jpg" },
-			{ name: "Taehyun", role: "Vocalist", animalLook: "Dog", image: "images/Sohee.jpg" },
-			{ name: "Soobin", role: "Rapper", animalLook: "Rabbit", image: "images/sungchan.jpg" }
+			{ name: "Yeonjun", role: "Dancer", animalLook: "Cat", image: "images/yeonjun.jpg" },
+			{ name: "Beomgyu", role: "Visual", animalLook: "Hamster", image: "images/beomgyu.jpg" },
+			{ name: "Taehyun", role: "Vocalist", animalLook: "Dog", image: "images/taehyun.jpg" },
+			{ name: "Soobin", role: "Rapper", animalLook: "Rabbit", image: "images/soobin.jpg" }
 		]
 	},
 	"Stray Kids": {
