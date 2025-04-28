@@ -139,11 +139,51 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/4hnHLgMSOiqERWBL4jINP1"
 		},
 		members: [
-			{ name: "Taesan", role: "Visual", animalLook: "Cat", image: "images/taesan.jpg" },
-			{ name: "Leehan", role: "Visual", animalLook: "Cat", image: "images/leehan.jpg" },
-			{ name: "Jaehyun", role: "Rapper", animalLook: "Dog", image: "images/jaehyun.jpg" },
-			{ name: "Woonhak", role: "Vocalist", animalLook: "Hamster", image: "images/woonhak.jpg" },
-			{ name: "Riwoo", role: "Dancer", animalLook: "Dog", image: "images/riwoo.jpg" }
+			{
+				name: "Taesan", role: "Visual", animalLook: "Cat", image: "images/taesan.jpg",
+				link: "https://en.wikipedia.org/wiki/Boynextdoor",
+				socials: {
+					instagram: "https://www.instagram.com/boynextdoor_official/?hl=en",
+					youtube: "https://www.youtube.com/hashtag/taesan",
+					spotify: "https://open.spotify.com/artist/2Zz9U4J4t6H3G0HdYVX0uY"
+				},
+			},
+			{
+				name: "Leehan", role: "Visual", animalLook: "Cat", image: "images/leehan.jpg",
+				link: "https://en.wikipedia.org/wiki/Boynextdoor",
+				socials: {
+					instagram: "https://www.instagram.com/boynextdoor_official/?hl=en",
+					youtube: "https://www.youtube.com/@boynextdoor_official",
+					spotify: "https://open.spotify.com/artist/4hnHLgMSOiqERWBL4jINP1"
+				},
+			},
+			{
+				name: "Jaehyun", role: "Rapper", animalLook: "Dog", image: "images/jaehyun.jpg",
+				link: "https://en.wikipedia.org/wiki/Boynextdoor",
+				socials: {
+					instagram: "https://www.instagram.com/boynextdoor_official/?hl=en",
+					youtube: "https://www.youtube.com/@boynextdoor_official",
+					spotify: "https://open.spotify.com/artist/4hnHLgMSOiqERWBL4jINP1"
+				},
+			},
+			{
+				name: "Woonhak", role: "Vocalist", animalLook: "Hamster", image: "images/woonhak.jpg",
+				link: "https://en.wikipedia.org/wiki/Boynextdoor",
+				socials: {
+					instagram: "https://www.instagram.com/boynextdoor_official/?hl=en",
+					youtube: "https://www.youtube.com/@boynextdoor_official",
+					spotify: "https://open.spotify.com/artist/4hnHLgMSOiqERWBL4jINP1"
+				},
+			},
+			{
+				name: "Riwoo", role: "Dancer", animalLook: "Dog", image: "images/riwoo.jpg",
+				link: "https://en.wikipedia.org/wiki/Boynextdoor",
+				socials: {
+					instagram: "https://www.instagram.com/boynextdoor_official/?hl=en",
+					youtube: "https://www.youtube.com/@boynextdoor_official",
+					spotify: "https://open.spotify.com/artist/4hnHLgMSOiqERWBL4jINP1"
+				},
+			}
 		]
 	},
 	"TWS": {
@@ -157,10 +197,42 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/4GgBKgxhc649frZDHcXIEz"
 		},
 		members: [
-			{ name: "Shinyu", role: "Visual", animalLook: "Cat", image: "images/Shinyu.jpg" },
-			{ name: "Dohoon", role: "Rapper", animalLook: "Dog", image: "images/Dohoon.jpg" },
-			{ name: "Youngjae", role: "Vocalist", animalLook: "Rabbit", image: "images/Youngjae.jpg" },
-			{ name: "Jihoon", role: "Dancer", animalLook: "Hamster", image: "images/Jihoon.jpg" }
+			{
+				name: "Shinyu", role: "Visual", animalLook: "Cat", image: "images/Shinyu.jpg",
+				link: "https://en.wikipedia.org/wiki/TWS_(group)",
+				socials: {
+					instagram: "https://www.instagram.com/tws_pledis/?hl=en",
+					youtube: "https://www.youtube.com/@TWS_PLEDIS",
+					spotify: "https://open.spotify.com/artist/4GgBKgxhc649frZDHcXIEz"
+				},
+			},
+			{
+				name: "Dohoon", role: "Rapper", animalLook: "Dog", image: "images/Dohoon.jpg",
+				link: "https://en.wikipedia.org/wiki/TWS_(group)",
+				socials: {
+					instagram: "https://www.instagram.com/tws_pledis/?hl=en",
+					youtube: "https://www.youtube.com/@TWS_PLEDIS",
+					spotify: "https://open.spotify.com/artist/4GgBKgxhc649frZDHcXIEz"
+				},
+			},
+			{
+				name: "Youngjae", role: "Vocalist", animalLook: "Rabbit", image: "images/Youngjae.jpg",
+				link: "https://en.wikipedia.org/wiki/TWS_(group)",
+				socials: {
+					instagram: "https://www.instagram.com/tws_pledis/?hl=en",
+					youtube: "https://www.youtube.com/@TWS_PLEDIS",
+					spotify: "https://open.spotify.com/artist/4GgBKgxhc649frZDHcXIEz"
+				},
+			},
+			{
+				name: "Jihoon", role: "Dancer", animalLook: "Hamster", image: "images/Jihoon.jpg",
+				link: "https://en.wikipedia.org/wiki/TWS_(group)",
+				socials: {
+					instagram: "https://www.instagram.com/tws_pledis/?hl=en",
+					youtube: "https://www.youtube.com/@TWS_PLEDIS",
+					spotify: "https://open.spotify.com/artist/4GgBKgxhc649frZDHcXIEz"
+				},
+			}
 		]
 	},
 	"Riize": {
@@ -174,10 +246,42 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/2jOm3cYujQx6o1dxuiuqaX"
 		},
 		members: [
-			{ name: "Shotaro", role: "Dancer", animalLook: "Hamster", image: "images/Shotaro.jpeg" },
-			{ name: "Wonbin", role: "Visual", animalLook: "Cat", image: "images/Wonbin.jpeg" },
-			{ name: "Sohee", role: "Vocalist", animalLook: "Dog", image: "images/Sohee.jpeg" },
-			{ name: "Sungchan", role: "Rapper", animalLook: "Dog", image: "images/sungchan.jpeg" }
+			{
+				name: "Shotaro", role: "Dancer", animalLook: "Hamster", image: "images/Shotaro.jpeg",
+				link: "https://en.wikipedia.org/wiki/Riize",
+				socials: {
+					instagram: "https://www.instagram.com/riize_official/?hl=en",
+					youtube: "https://www.youtube.com/@RIIZE_official",
+					spotify: "https://open.spotify.com/artist/2jOm3cYujQx6o1dxuiuqaX"
+				},
+			},
+			{
+				name: "Wonbin", role: "Visual", animalLook: "Cat", image: "images/Wonbin.jpeg",
+				link: "https://en.wikipedia.org/wiki/Riize",
+				socials: {
+					instagram: "https://www.instagram.com/riize_official/?hl=en",
+					youtube: "https://www.youtube.com/@RIIZE_official",
+					spotify: "https://open.spotify.com/artist/2jOm3cYujQx6o1dxuiuqaX"
+				},
+			},
+			{
+				name: "Sohee", role: "Vocalist", animalLook: "Dog", image: "images/Sohee.jpeg",
+				link: "https://en.wikipedia.org/wiki/Riize",
+				socials: {
+					instagram: "https://www.instagram.com/riize_official/?hl=en",
+					youtube: "https://www.youtube.com/@RIIZE_official",
+					spotify: "https://open.spotify.com/artist/2jOm3cYujQx6o1dxuiuqaX"
+				},
+			},
+			{
+				name: "Sungchan", role: "Rapper", animalLook: "Dog", image: "images/sungchan.jpeg",
+				link: "https://en.wikipedia.org/wiki/Riize",
+				socials: {
+					instagram: "https://www.instagram.com/riize_official/?hl=en",
+					youtube: "https://www.youtube.com/@RIIZE_official",
+					spotify: "https://open.spotify.com/artist/2jOm3cYujQx6o1dxuiuqaX"
+				},
+			}
 		]
 	},
 	"TXT": {
@@ -191,10 +295,42 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/0ghlgldX5Dd6720Q3qFyQB"
 		},
 		members: [
-			{ name: "Yeonjun", role: "Dancer", animalLook: "Cat", image: "images/yeonjun.jpg" },
-			{ name: "Beomgyu", role: "Visual", animalLook: "Hamster", image: "images/beomgyu.jpg" },
-			{ name: "Taehyun", role: "Vocalist", animalLook: "Dog", image: "images/taehyun.jpg" },
-			{ name: "Soobin", role: "Rapper", animalLook: "Rabbit", image: "images/soobin.jpg" }
+			{
+				name: "Yeonjun", role: "Dancer", animalLook: "Cat", image: "images/yeonjun.jpg",
+				link: "https://en.wikipedia.org/wiki/Yeonjun",
+				socials: {
+					instagram: "https://www.instagram.com/yawnzzn/?hl=en",
+					youtube: "https://www.youtube.com/watch?v=1T9tLMh99Wo",
+					spotify: "https://open.spotify.com/artist/2Mo2yHjmrDRZW7yRuJwR2w"
+				},
+			},
+			{
+				name: "Beomgyu", role: "Visual", animalLook: "Hamster", image: "images/beomgyu.jpg",
+				link: "https://en.wikipedia.org/wiki/Beomgyu",
+				socials: {
+					instagram: "https://www.instagram.com/bamgyuuuu/?hl=en",
+					youtube: "https://www.youtube.com/watch?v=9hTpDHJmjC0",
+					spotify: "https://open.spotify.com/artist/69vfchlzopPm72nD2elXCH"
+				},
+			},
+			{
+				name: "Taehyun", role: "Vocalist", animalLook: "Dog", image: "images/taehyun.jpg",
+				link: "https://es.wikipedia.org/wiki/Taehyun",
+				socials: {
+					instagram: "https://www.instagram.com/txt_bighit/?hl=en",
+					youtube: "https://www.youtube.com/watch?v=b7zvnLaF5XM",
+					spotify: "https://open.spotify.com/artist/0ghlgldX5Dd6720Q3qFyQB"
+				},
+			},
+			{
+				name: "Soobin", role: "Rapper", animalLook: "Rabbit", image: "images/soobin.jpg",
+				link: "https://en.wikipedia.org/wiki/Tomorrow_X_Together",
+				socials: {
+					instagram: "https://www.instagram.com/page.soobin/?hl=en",
+					youtube: "https://www.youtube.com/watch?v=lomg3JLjIQc",
+					spotify: "https://open.spotify.com/artist/0ghlgldX5Dd6720Q3qFyQB"
+				},
+			}
 		]
 	},
 	"Stray Kids": {
@@ -208,10 +344,42 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
 		},
 		members: [
-			{ name: "Seungmin", role: "Vocalist", animalLook: "Dog", image: "images/bangchan.jpg" },
-			{ name: "Lee Know", role: "Dancer", animalLook: "Dog", image: "images/leeknow.webp" },
-			{ name: "Changbin", role: "Rapper", animalLook: "Rabbit", image: "images/changbin.jpg" },
-			{ name: "Hyunjin", role: "Visual", animalLook: "Cat", image: "images/hyunjin.jpg" }
+			{
+				name: "Seungmin", role: "Vocalist", animalLook: "Dog", image: "images/bangchan.jpg",
+				link: "https://en.wikipedia.org/wiki/Seungmin",
+				socials: {
+					instagram: "https://www.instagram.com/miniverse.___/?hl=en",
+					youtube: "https://www.youtube.com/watch?v=kAzmhLHePqU",
+					spotify: "https://open.spotify.com/artist/2nTtulf6WM0raQcIbzYJuf"
+				},
+			},
+			{
+				name: "Lee Know", role: "Dancer", animalLook: "Dog", image: "images/leeknow.webp",
+				link: "https://en.wikipedia.org/wiki/Lee_Know",
+				socials: {
+					instagram: "https://www.instagram.com/t.leeknowsaurus/?hl=en",
+					youtube: "https://www.youtube.com/watch?v=NI2NBjZGYfM",
+					spotify: "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+				},
+			},
+			{
+				name: "Changbin", role: "Rapper", animalLook: "Rabbit", image: "images/changbin.jpg",
+				link: "https://en.wikipedia.org/wiki/Changbin",
+				socials: {
+					instagram: "https://www.instagram.com/realstraykids/?hl=en",
+					youtube: "https://www.youtube.com/watch?v=t4YJEekL1f8&vl=en",
+					spotify: "https://open.spotify.com/artist/3XSid6KaiKoMAVZs2ug3yw"
+				},
+			},
+			{
+				name: "Hyunjin", role: "Visual", animalLook: "Cat", image: "images/hyunjin.jpg",
+				link: "https://en.wikipedia.org/wiki/Hyunjin",
+				socials: {
+					instagram: "https://www.instagram.com/hynjinnnn/",
+					youtube: "https://www.youtube.com/watch?v=3yp17XEP5ck&vl=en",
+					spotify: "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+				},
+			}
 		]
 	},
 
