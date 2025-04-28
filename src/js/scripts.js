@@ -140,7 +140,7 @@ const kpopGroups = {
 		},
 		members: [
 			{
-				name: "Taesan", role: "Visual", animalLook: "Cat", image: "images/taesan.jpg",
+				name: "Taesan", role: "Visual", animalLook: "Cat", image: "images/taesan.jpeg",
 				link: "https://en.wikipedia.org/wiki/Boynextdoor",
 				socials: {
 					instagram: "https://www.instagram.com/boynextdoor_official/?hl=en",
@@ -158,7 +158,7 @@ const kpopGroups = {
 				},
 			},
 			{
-				name: "Jaehyun", role: "Rapper", animalLook: "Dog", image: "images/jaehyun.jpg",
+				name: "Jaehyun", role: "Rapper", animalLook: "Dog", image: "images/jaehyunm.jpeg",
 				link: "https://en.wikipedia.org/wiki/Boynextdoor",
 				socials: {
 					instagram: "https://www.instagram.com/boynextdoor_official/?hl=en",
