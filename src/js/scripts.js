@@ -66,7 +66,11 @@ const kpopGroups = {
 		],
 		link: "https://en.wikipedia.org/wiki/NCT_Dream",
 		image: "images/nctdream.webp",
-		backgroundImage: "images/result-nctdream.jpg",
+		socials: {
+			instagram: "https://www.instagram.com/nct_dream/?hl=en",
+			youtube: "https://www.youtube.com/channel/UCXURHJRGr4-EB3l87kcbElw",
+			spotify: "https://open.spotify.com/artist/1gBUSTR3TyDdTVFIaQnc02"
+		},
 		members: [
 			{ name: "Jaemin", role: "Visual", animalLook: "Rabbit", image: "images/jaemin.jpg" },
 			{ name: "Jisung", role: "Dancer", animalLook: "Hamster", image: "images/jisung.jpg" },
@@ -82,6 +86,11 @@ const kpopGroups = {
 		aesthetic: "Fresh & Youthful",
 		link: "https://en.wikipedia.org/wiki/Boynextdoor",
 		image: "images/boynextdoor.webp",
+		socials: {
+			instagram: "https://www.instagram.com/boynextdoor_official/?hl=en",
+			youtube: "https://www.youtube.com/@boynextdoor_official",
+			spotify: "https://open.spotify.com/artist/4hnHLgMSOiqERWBL4jINP1"
+		},
 		members: [
 			{ name: "Taesan", role: "Visual", animalLook: "Cat", image: "images/taesan.jpg" },
 			{ name: "Leehan", role: "Visual", animalLook: "Cat", image: "images/leehan.jpg" },
@@ -97,6 +106,11 @@ const kpopGroups = {
 		aesthetic: "Fresh & Youthful",
 		link: "https://en.wikipedia.org/wiki/TWS_(group)",
 		image: "images/TWS.jpg",
+		socials: {
+			instagram: "https://www.instagram.com/tws_pledis/?hl=en",
+			youtube: "https://www.youtube.com/@TWS_PLEDIS",
+			spotify: "https://open.spotify.com/artist/4GgBKgxhc649frZDHcXIEz"
+		},
 		members: [
 			{ name: "Shinyu", role: "Visual", animalLook: "Cat", image: "images/Shinyu.jpg" },
 			{ name: "Dohoon", role: "Rapper", animalLook: "Dog", image: "images/Dohoon.jpg" },
@@ -111,6 +125,11 @@ const kpopGroups = {
 		aesthetic: "Vintage / Retro",
 		link: "https://en.wikipedia.org/wiki/Riize",
 		image: "images/RIIZE.jpeg",
+		socials: {
+			instagram: "https://www.instagram.com/riize_official/?hl=en",
+			youtube: "https://www.youtube.com/@RIIZE_official",
+			spotify: "https://open.spotify.com/artist/2jOm3cYujQx6o1dxuiuqaX"
+		},
 		members: [
 			{ name: "Shotaro", role: "Dancer", animalLook: "Hamster", image: "images/Shotaro.jpg" },
 			{ name: "Wonbin", role: "Visual", animalLook: "Cat", image: "images/Wonbin.jpg" },
@@ -125,6 +144,11 @@ const kpopGroups = {
 		aesthetic: "Vintage / Retro",
 		link: "https://en.wikipedia.org/wiki/Tomorrow_X_Together",
 		image: "images/txt.jpg",
+		socials: {
+			instagram: "https://www.instagram.com/txt_bighit/?hl=en",
+			youtube: "https://www.youtube.com/channel/UCtiObj3CsEAdNU6ZPWDsddQ",
+			spotify: "https://open.spotify.com/artist/0ghlgldX5Dd6720Q3qFyQB"
+		},
 		members: [
 			{ name: "Yeonjun", role: "Dancer", animalLook: "Cat", image: "images/Shotaro.jpg" },
 			{ name: "Beomgyu", role: "Visual", animalLook: "Hamster", image: "images/Wonbin.jpg" },
@@ -138,7 +162,12 @@ const kpopGroups = {
 		genre: "Rap & Hip-pop",
 		aesthetic: "Dark & Mysterious",
 		link: "https://en.wikipedia.org/wiki/Stray_Kids",
-		image: "images/Straykids.webp",
+		image: "images/straykids.jpg",
+		socials: {
+			instagram: "https://www.instagram.com/realstraykids/?hl=en",
+			youtube: "https://www.youtube.com/channel/UC9rMiEjNaCSsebs31MRDCRA",
+			spotify: "https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE"
+		},
 		members: [
 			{ name: "Seungmin", role: "Vocalist", animalLook: "Dog", image: "images/bangchan.jpg" },
 			{ name: "Lee Know", role: "Dancer", animalLook: "Dog", image: "images/leenow.jpg" },
@@ -155,11 +184,16 @@ const kpopGroups = {
 		aesthetic: "Vintage / Retro",
 		link: "https://en.wikipedia.org/wiki/Le_Sserafim",
 		image: "images/lesserafim.jpg",
+		socials: {
+			instagram: "https://www.instagram.com/le_sserafim/?hl=en",
+			youtube: "https://www.youtube.com/channel/UCs-QBT4qkj_YiQw1ZntDO3g",
+			spotify: "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p"
+		},
 		members: [
-			{ name: "Sakura", role: "Visual", animalLook:"Rabbit", image: "images/sakura.jpg" },
-			{ name: "Yunjin", role: "Rapper", animalLook:"Cat", image: "images/yunjin.jpg" },
-			{ name: "Chaewon", role: "Vocalist", animalLook:"Hamster", image: "images/chaewon.jpg" },
-			{ name: "Eunchae", role: "Dancer", animalLook:"Dog", image: "images/eunchae.jpg" }
+			{ name: "Sakura", role: "Visual", animalLook: "Rabbit", image: "images/sakura.jpg" },
+			{ name: "Yunjin", role: "Rapper", animalLook: "Cat", image: "images/yunjin.jpg" },
+			{ name: "Chaewon", role: "Vocalist", animalLook: "Hamster", image: "images/chaewon.jpg" },
+			{ name: "Eunchae", role: "Dancer", animalLook: "Dog", image: "images/eunchae.jpg" }
 		]
 	},
 	"njz": {
@@ -169,11 +203,16 @@ const kpopGroups = {
 		aesthetic: "Fresh & Youthful",
 		link: "https://en.wikipedia.org/wiki/NewJeans",
 		image: "images/NewJeans.webp",
+		socials: {
+			instagram: "https://www.instagram.com/newjeans_official/?hl=en",
+			youtube: "https://www.youtube.com/channel/UCMki_UkHb4qSc0qyEcOHHJw",
+			spotify: "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
+		},
 		members: [
-			{ name: "Minji", role: "Rapper", animalLook:"Dog", image: "images/minji.jpg" },
-			{ name: "Haerin", role: "Dancer", animalLook:"Hamster", image: "images/haerin.jpg" },
-			{ name: "Danielle", role: "Visual", animalLook:"Rabbit", image: "images/danielle.jpg" },
-			{ name: "Hyein", role: "Vocalist", animalLook:"Cat", image: "images/hyein.jpg" }
+			{ name: "Minji", role: "Rapper", animalLook: "Dog", image: "images/minji.jpg" },
+			{ name: "Haerin", role: "Dancer", animalLook: "Hamster", image: "images/haerin.jpg" },
+			{ name: "Danielle", role: "Visual", animalLook: "Rabbit", image: "images/danielle.jpg" },
+			{ name: "Hyein", role: "Vocalist", animalLook: "Cat", image: "images/hyein.jpg" }
 		]
 	},
 	"illit": {
@@ -183,11 +222,16 @@ const kpopGroups = {
 		aesthetic: "Fresh & Youthful",
 		link: "https://en.wikipedia.org/wiki/Illit",
 		image: "images/illit.webp",
+		socials: {
+			instagram: "https://www.instagram.com/illit_official/?hl=en",
+			youtube: "https://www.youtube.com/@ILLIT_official",
+			spotify: "https://open.spotify.com/artist/36cgvBn0aadzOijnjjwqMN"
+		},
 		members: [
-			{ name: "Moka", role: "Rapper", animalLook:"Dog", image: "images/moka.jpg" },
-			{ name: "Iroha", role: "Dancer", animalLook:"Hamster", image: "images/iroha.jpeg" },
-			{ name: "Wonhee", role: "Visual", animalLook:"Rabbit", image: "images/wonhee.jpeg" },
-			{ name: "Minju", role: "Vocalist", animalLook:"Cat", image: "images/minju.jpeg" }
+			{ name: "Moka", role: "Rapper", animalLook: "Dog", image: "images/moka.jpg" },
+			{ name: "Iroha", role: "Dancer", animalLook: "Hamster", image: "images/iroha.jpeg" },
+			{ name: "Wonhee", role: "Visual", animalLook: "Rabbit", image: "images/wonhee.jpeg" },
+			{ name: "Minju", role: "Vocalist", animalLook: "Cat", image: "images/minju.jpeg" }
 		]
 	},
 	"aespa": {
@@ -197,11 +241,16 @@ const kpopGroups = {
 		aesthetic: "Futuristic & Edgy",
 		link: "https://en.wikipedia.org/wiki/Aespa",
 		image: "images/aespa.jpg",
+		socials: {
+			instagram: "https://www.instagram.com/aespa_official/?hl=en",
+			youtube: "https://www.youtube.com/channel/UC9GtSLeksfK4yuJ_g1lgQbg",
+			spotify: "https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE"
+		},
 		members: [
-			{ name: "Karina", role: "Dancer", animalLook:"Cat", image: "images/karina.webp" },
-			{ name: "Winter", role: "Visual", animalLook:"Hamster", image: "images/winter.jpg" },
-			{ name: "Giselle", role: "Rapper", animalLook:"Dog", image: "images/giselle.jpg" },
-			{ name: "Ningning", role: "Vocalist", animalLook:"Cat",image: "images/ningning.jpg" }
+			{ name: "Karina", role: "Dancer", animalLook: "Cat", image: "images/karina.webp" },
+			{ name: "Winter", role: "Visual", animalLook: "Hamster", image: "images/winter.jpg" },
+			{ name: "Giselle", role: "Rapper", animalLook: "Dog", image: "images/giselle.jpg" },
+			{ name: "Ningning", role: "Vocalist", animalLook: "Cat", image: "images/ningning.jpg" }
 		]
 	},
 	"nmixx": {
@@ -211,11 +260,16 @@ const kpopGroups = {
 		aesthetic: "Futuristic & Edgy",
 		link: "https://en.wikipedia.org/wiki/Nmixx",
 		image: "images/nmixx.jpg",
+		socials: {
+			instagram: "https://www.instagram.com/nmixx_official/",
+			youtube: "https://www.youtube.com/channel/UCnUAyD4t2LkvW68YrDh7fDg",
+			spotify: "https://open.spotify.com/artist/28ot3wh4oNmoFOdVajibBl"
+		},
 		members: [
-			{ name: "Bae", role: "Dancer", animalLook:"Dog", image: "images/bae.jpg" },
-			{ name: "Sullyoon", role: "Visual", animalLook:"Rabbit", image: "images/sullyoon.jpg" },
-			{ name: "Kyujin", role: "Rapper", animalLook:"Cat", image: "images/kyujin.jpg" },
-			{ name: "Haewon", role: "Vocalist", animalLook:"Hamster",image: "images/haewon.jpg" }
+			{ name: "Bae", role: "Dancer", animalLook: "Dog", image: "images/bae.jpg" },
+			{ name: "Sullyoon", role: "Visual", animalLook: "Rabbit", image: "images/sullyoon.jpg" },
+			{ name: "Kyujin", role: "Rapper", animalLook: "Cat", image: "images/kyujin.jpg" },
+			{ name: "Haewon", role: "Vocalist", animalLook: "Hamster", image: "images/haewon.jpg" }
 		]
 	},
 	"babymonster": {
@@ -225,11 +279,16 @@ const kpopGroups = {
 		aesthetic: "Dark & Mysterious",
 		link: "https://en.wikipedia.org/wiki/Babymonster",
 		image: "images/babymonster.webp",
+		socials: {
+			instagram: "https://www.instagram.com/babymonster_ygofficial/",
+			youtube: "https://www.youtube.com/channel/UCqwUnggBBct-AY2lAdI88jQ",
+			spotify: "https://open.spotify.com/artist/1SIocsqdEefUTE6XKGUiVS"
+		},
 		members: [
-			{ name: "Ruka", role: "Rapper", animalLook:"Cat", image: "images/ruka.jpeg" },
-			{ name: "Ahyeon", role: "Vocalist", animalLook:"Dog", image: "images/ahyeon.jpeg" },
-			{ name: "Chiquita", role: "Dancer", animalLook:"Hamster", image: "images/chiquita.jpg" },
-			{ name: "Pharita", role: "Visual", animalLook:"Rabbit", image: "images/pharita.jpg" }
+			{ name: "Ruka", role: "Rapper", animalLook: "Cat", image: "images/ruka.jpeg" },
+			{ name: "Ahyeon", role: "Vocalist", animalLook: "Dog", image: "images/ahyeon.jpeg" },
+			{ name: "Chiquita", role: "Dancer", animalLook: "Hamster", image: "images/chiquita.jpg" },
+			{ name: "Pharita", role: "Visual", animalLook: "Rabbit", image: "images/pharita.jpg" }
 		]
 	},
 	"youngposse": {
@@ -239,6 +298,11 @@ const kpopGroups = {
 		aesthetic: "Dark & Mysterious",
 		link: "https://en.wikipedia.org/wiki/Young_Posse",
 		image: "images/Young_Posse.jpg",
+		socials: {
+			instagram: "https://www.instagram.com/youngposseup/?hl=en",
+			youtube: "https://www.youtube.com/@YOUNGPOSSEUP",
+			spotify: "https://open.spotify.com/artist/5bxwvIM9PX0CkpS6f1L2Ff"
+		},
 		members: [
 			{ name: "Sunhye", role: "Rapper", animalLook: "Hamster", image: "images/ruka.jpg" },
 			{ name: "Yeonjung", role: "Vocalist", animalLook: "Rabbit", image: "images/ahyeon.jpg" },
@@ -418,36 +482,36 @@ function getGirlGroupMatch() {
 	} else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
 		return kpopGroups["njz"];
 	} else if (genre === "upbeat & happy" && aesthetic === "fresh & youthful") {
-        return kpopGroups["illit"];
-    } else if (genre === "experimental & edgy" && aesthetic === "futuristic & edgy") {
-        return kpopGroups["aespa"];
+		return kpopGroups["illit"];
+	} else if (genre === "experimental & edgy" && aesthetic === "futuristic & edgy") {
+		return kpopGroups["aespa"];
 	} else if (genre === "rap & hip-pop" && aesthetic === "dark & mysterious") {
-        return kpopGroups["babymonster"];
-    } else {
-        return kpopGroups["aespa"]; // Default if no match
-    }
+		return kpopGroups["babymonster"];
+	} else {
+		return kpopGroups["aespa"]; // Default if no match
+	}
 }
 
 // Logic to match Either group
 function getAnyGroupMatch() {
-    const genre = formatText(userResults.genre);
-    const aesthetic = formatText(userResults.aesthetic);
-    
-    if (genre === "upbeat & happy" && aesthetic === "fresh & youthful") {
-        return kpopGroups["TWS"];
-    } else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
-        return kpopGroups["TXT"];
+	const genre = formatText(userResults.genre);
+	const aesthetic = formatText(userResults.aesthetic);
+
+	if (genre === "upbeat & happy" && aesthetic === "fresh & youthful") {
+		return kpopGroups["TWS"];
+	} else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
+		return kpopGroups["TXT"];
 	} else if (genre === "upbeat & happy" && aesthetic === "futuristic & edgy") {
 		return kpopGroups["NCT Dream"];
-    } else if (genre === "chill & moody" && aesthetic === "fresh & youthful") {
-        return kpopGroups["illit"];
+	} else if (genre === "chill & moody" && aesthetic === "fresh & youthful") {
+		return kpopGroups["illit"];
 	} else if (genre === "rap & hip-pop" && aesthetic === "vintage & retro") {
-			return kpopGroups["youngposse"];
+		return kpopGroups["youngposse"];
 	} else if (genre === "rap & hip-pop" && aesthetic === "dark & mysterious") {
-			return kpopGroups["Stray Kids"];
-    } else {
-        return kpopGroups["njz"]; // Default if no match
-    }
+		return kpopGroups["Stray Kids"];
+	} else {
+		return kpopGroups["njz"]; // Default if no match
+	}
 }
 
 // Update result with background image
@@ -488,6 +552,13 @@ function showGroupResult() {
 		document.querySelector(".result-name").textContent = currentMatchedGroup.name;
 		document.querySelector(".result-images").src = currentMatchedGroup.image;
 		document.querySelector(".result-group-btn-list a").href = currentMatchedGroup.link;
+	}
+
+	const socialLinks = document.querySelectorAll('.result-group .social-btn a');
+	if (currentMatchedGroup.socials) {
+		socialLinks[0].href = currentMatchedGroup.socials.instagram;
+		socialLinks[1].href = currentMatchedGroup.socials.youtube;
+		socialLinks[2].href = currentMatchedGroup.socials.spotify;
 	}
 }
 
@@ -530,34 +601,34 @@ function getBiasMatch() {
 			return currentMatchedGroup.members[0]; // Default to Seungmin
 		}
 
-    } else {
-        // For other groups, find best match based on both role and animal look
-        let bestMatch = currentMatchedGroup.members[0];
-        
-        // Check for exact match (both role and animal look)
-        for (const member of currentMatchedGroup.members) {
-            if (formatText(member.role) === role && formatText(member.animalLook) === animalLook) {
-                return member; // Perfect match, return immediately
-            }
-        }
-        
-        // If no perfect match, prioritize matching by role
-        for (const member of currentMatchedGroup.members) {
-            if (formatText(member.role) === role) {
-                return member;
-            }
-        }
-        
-        // If still no match, try matching just by animal look
-        for (const member of currentMatchedGroup.members) {
-            if (formatText(member.animalLook) === animalLook) {
-                return member;
-            }
-        }
-        
-        // If no matches at all, return the first member as default
-        return bestMatch;
-    }
+	} else {
+		// For other groups, find best match based on both role and animal look
+		let bestMatch = currentMatchedGroup.members[0];
+
+		// Check for exact match (both role and animal look)
+		for (const member of currentMatchedGroup.members) {
+			if (formatText(member.role) === role && formatText(member.animalLook) === animalLook) {
+				return member; // Perfect match, return immediately
+			}
+		}
+
+		// If no perfect match, prioritize matching by role
+		for (const member of currentMatchedGroup.members) {
+			if (formatText(member.role) === role) {
+				return member;
+			}
+		}
+
+		// If still no match, try matching just by animal look
+		for (const member of currentMatchedGroup.members) {
+			if (formatText(member.animalLook) === animalLook) {
+				return member;
+			}
+		}
+
+		// If no matches at all, return the first member as default
+		return bestMatch;
+	}
 }
 
 // Function to show bias result
