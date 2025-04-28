@@ -799,6 +799,9 @@ document.addEventListener("DOMContentLoaded", () => {
 		showSection(homepage);
 	});
 
+	document.querySelector('.about-group-btn')?.addEventListener('click', openGroupAboutPage);
+	document.querySelector('.about-bias-btn')?.addEventListener('click', openBiasAboutPage);
+
 	document.querySelectorAll(".result-btn").forEach(btn => {
 		if (btn.textContent.toLowerCase().includes("match your bias")) {
 			btn.addEventListener("click", () => {
@@ -1046,7 +1049,6 @@ function showGroupResult() {
 		// Update the result page with the matched group's data
 		document.querySelector(".result-name").textContent = currentMatchedGroup.name;
 		document.querySelector(".result-images").src = currentMatchedGroup.image;
-		document.querySelector(".result-group-btn-list a").href = currentMatchedGroup.link;
 	}
 
 	const socialLinks = document.querySelectorAll('.result-group .social-btn a');
@@ -1054,6 +1056,19 @@ function showGroupResult() {
 		socialLinks[0].href = currentMatchedGroup.socials.instagram;
 		socialLinks[1].href = currentMatchedGroup.socials.youtube;
 		socialLinks[2].href = currentMatchedGroup.socials.spotify;
+	}
+}
+
+// These functions to handle about button clicks
+function openGroupAboutPage() {
+	if (currentMatchedGroup && currentMatchedGroup.link) {
+		window.open(currentMatchedGroup.link, "_blank");
+	}
+}
+
+function openBiasAboutPage() {
+	if (currentMatchedBias && currentMatchedBias.link) {
+		window.open(currentMatchedBias.link, "_blank");
 	}
 }
 
@@ -1090,16 +1105,18 @@ function getBiasMatch() {
 	return currentMatchedGroup.members[0];
 }
 
-function showBiasResult() {
-	const matchedBias = getBiasMatch();
-	console.log('Matched Bias:', matchedBias); // Debug 看看有没有拿到正确成员！
+let currentMatchedBias = null;
 
-	if (matchedBias) {
+function showBiasResult() {
+	currentMatchedBias = getBiasMatch();
+	//console.log('Matched Bias:', matchedBias); // Debug 看看有没有拿到正确成员！
+
+	if (currentMatchedBias) {
 		// 更新名字
-		document.querySelector(".result-bias .result-name").textContent = matchedBias.name;
+		document.querySelector(".result-bias .result-name").textContent = currentMatchedBias.name;
 
 		// 更新小图
-		document.querySelector(".bias-result-image").src = matchedBias.image;
+		document.querySelector(".bias-result-image").src = currentMatchedBias.image;
 
 		// 更新背景（这里可以用 member 的图片，或者独立 backgroundImage）
 		const biasSection = document.querySelector(".result-bias");
@@ -1107,20 +1124,21 @@ function showBiasResult() {
 		biasSection.style.backgroundPosition = "center";
 
 		// 更新 about 链接（如果你在 member 里面加了 link 字段）
-		const aboutBiasBtn = document.querySelector('.result-bias .result-bias-btn-list a');
-		if (aboutBiasBtn && matchedBias.link) {
-			aboutBiasBtn.href = matchedBias.link;
-		}
+		//const aboutBiasBtn = document.querySelector('.result-bias .result-bias-btn-list a');
+		//if (aboutBiasBtn && matchedBias.link) {
+		//aboutBiasBtn.href = matchedBias.link;
+		//}
 
 		// 更新 social buttons
 		const socialLinks = document.querySelectorAll('.result-bias .social-btn a');
-		if (matchedBias.socials) {
-			socialLinks[0].href = matchedBias.socials.instagram;
-			socialLinks[1].href = matchedBias.socials.youtube;
-			socialLinks[2].href = matchedBias.socials.spotify;
+		if (currentMatchedBias.socials) {
+			socialLinks[0].href = currentMatchedBias.socials.instagram;
+			socialLinks[1].href = currentMatchedBias.socials.youtube;
+			socialLinks[2].href = currentMatchedBias.socials.spotify;
 		}
 	}
 }
+
 
 // Add these event listeners to capture role and animal look choices
 document.querySelectorAll(".quiz-4-btn").forEach(button => {
