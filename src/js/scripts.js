@@ -92,11 +92,11 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/4hnHLgMSOiqERWBL4jINP1"
 		},
 		members: [
-			{ name: "Taesan", role: "Visual", animalLook: "Cat", image: "images/taesan.jpg" },
-			{ name: "Leehan", role: "Visual", animalLook: "Cat", image: "images/leehan.jpg" },
-			{ name: "Jaehyun", role: "Rapper", animalLook: "Dog", image: "images/jaehyun.jpg" },
-			{ name: "Woonhak", role: "Vocalist", animalLook: "Hamster", image: "images/woonhak.jpg" },
-			{ name: "Riwoo", role: "Dancer", animalLook: "Dog", image: "images/riwoo.jpg" }
+			{ name: "Taesan", role: "Visual", animalLook: "Cat", image: "images/taesan.jpeg" },
+			{ name: "Leehan", role: "Visual", animalLook: "Rabbit", image: "images/leehan.jpeg" },
+			{ name: "Jaehyun", role: "Rapper", animalLook: "Dog", image: "images/mjaehyun.jpeg" },
+			{ name: "Woonhak", role: "Vocalist", animalLook: "Hamster", image: "images/woonhak.jpeg" },
+			{ name: "Riwoo", role: "Dancer", animalLook: "Dog", image: "images/riwoo.jpeg" }
 		]
 	},
 	"TWS": {
@@ -131,10 +131,10 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/2jOm3cYujQx6o1dxuiuqaX"
 		},
 		members: [
-			{ name: "Shotaro", role: "Dancer", animalLook: "Hamster", image: "images/Shotaro.jpg" },
-			{ name: "Wonbin", role: "Visual", animalLook: "Cat", image: "images/Wonbin.jpg" },
-			{ name: "Sohee", role: "Vocalist", animalLook: "Dog", image: "images/Sohee.jpg" },
-			{ name: "Sungchan", role: "Rapper", animalLook: "Dog", image: "images/sungchan.jpg" }
+			{ name: "Shotaro", role: "Dancer", animalLook: "Hamster", image: "images/Shotaro.jpeg" },
+			{ name: "Wonbin", role: "Visual", animalLook: "Cat", image: "images/Wonbin.jpeg" },
+			{ name: "Sohee", role: "Vocalist", animalLook: "Dog", image: "images/Sohee.jpeg" },
+			{ name: "Sungchan", role: "Rapper", animalLook: "Dog", image: "images/sungchan.jpeg" }
 		]
 	},
 	"TXT": {
@@ -150,10 +150,10 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/0ghlgldX5Dd6720Q3qFyQB"
 		},
 		members: [
-			{ name: "Yeonjun", role: "Dancer", animalLook: "Cat", image: "images/Shotaro.jpg" },
-			{ name: "Beomgyu", role: "Visual", animalLook: "Hamster", image: "images/Wonbin.jpg" },
-			{ name: "Taehyun", role: "Vocalist", animalLook: "Dog", image: "images/Sohee.jpg" },
-			{ name: "Soobin", role: "Rapper", animalLook: "Rabbit", image: "images/sungchan.jpg" }
+			{ name: "Yeonjun", role: "Dancer", animalLook: "Cat", image: "images/yeonjun.jpg" },
+			{ name: "Beomgyu", role: "Visual", animalLook: "Hamster", image: "images/beomgyu.jpg" },
+			{ name: "Taehyun", role: "Vocalist", animalLook: "Dog", image: "images/taehyun.jpg" },
+			{ name: "Soobin", role: "Rapper", animalLook: "Rabbit", image: "images/soobin.jpg" }
 		]
 	},
 	"Stray Kids": {
