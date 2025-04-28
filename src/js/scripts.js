@@ -397,10 +397,42 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p"
 		},
 		members: [
-			{ name: "Sakura", role: "Visual", animalLook: "Rabbit", image: "images/sakura.jpg" },
-			{ name: "Yunjin", role: "Rapper", animalLook: "Cat", image: "images/yunjin.jpg" },
-			{ name: "Chaewon", role: "Vocalist", animalLook: "Hamster", image: "images/chaewon.jpg" },
-			{ name: "Eunchae", role: "Dancer", animalLook: "Dog", image: "images/eunchae.jpg" }
+			{
+				name: "Sakura", role: "Visual", animalLook: "Rabbit", image: "images/sakura.jpg",
+				link: "https://en.wikipedia.org/wiki/Sakura_Miyawaki",
+				socials: {
+					instagram: "https://www.instagram.com/39saku_chan/?hl=en",
+					youtube: "https://www.youtube.com/channel/UCs-QBT4qkj_YiQw1ZntDO3g",
+					spotify: "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p"
+				},
+			},
+			{
+				name: "Yunjin", role: "Rapper", animalLook: "Cat", image: "images/yunjin.jpg",
+				link: "https://en.wikipedia.org/wiki/Huh_Yunjin",
+				socials: {
+					instagram: "https://www.instagram.com/jenaissante/?hl=en",
+					youtube: "https://www.youtube.com/watch?v=9trNIRzbPMc&pp=0gcJCdgAo7VqN5tD",
+					spotify: "https://open.spotify.com/artist/13yWtUnz63q5VIs5SwoMhy"
+				},
+			},
+			{
+				name: "Chaewon", role: "Vocalist", animalLook: "Hamster", image: "images/chaewon.jpg",
+				link: "https://en.wikipedia.org/wiki/Kim_Chaewon",
+				socials: {
+					instagram: "https://www.instagram.com/_chaechae_1/?hl=en",
+					youtube: "https://www.youtube.com/playlist?list=PL2JKfPn9guiJuvIKuiTheSRwJB_-8Y1J6",
+					spotify: "https://open.spotify.com/artist/4AY12WVwnTpIobXjwJkYDQ"
+				},
+			},
+			{
+				name: "Eunchae", role: "Dancer", animalLook: "Dog", image: "images/eunchae.jpg",
+				link: "https://en.wikipedia.org/wiki/Le_Sserafim",
+				socials: {
+					instagram: "https://www.instagram.com/hhh.e_c.v/?hl=en",
+					youtube: "https://www.youtube.com/watch?v=JyS-JQryzcA",
+					spotify: "https://open.spotify.com/artist/4SpbR6yFEvexJuaBpgAU5p"
+				},
+			}
 		]
 	},
 	"njz": {
@@ -416,10 +448,42 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
 		},
 		members: [
-			{ name: "Minji", role: "Rapper", animalLook: "Dog", image: "images/minji.jpg" },
-			{ name: "Haerin", role: "Dancer", animalLook: "Hamster", image: "images/haerin.jpg" },
-			{ name: "Danielle", role: "Visual", animalLook: "Rabbit", image: "images/danielle.jpg" },
-			{ name: "Hyein", role: "Vocalist", animalLook: "Cat", image: "images/hyein.jpg" }
+			{
+				name: "Minji", role: "Rapper", animalLook: "Dog", image: "images/minji.jpg",
+				link: "https://en.wikipedia.org/wiki/Minji_(singer)",
+				socials: {
+					instagram: "https://www.instagram.com/newjeans_official/?hl=en",
+					youtube: "https://www.youtube.com/watch?v=f9cViIsTarw",
+					spotify: "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
+				},
+			},
+			{
+				name: "Haerin", role: "Dancer", animalLook: "Hamster", image: "images/haerin.jpg",
+				link: "https://en.wikipedia.org/wiki/Haerin",
+				socials: {
+					instagram: "https://www.instagram.com/njzhaerinn/",
+					youtube: "https://www.youtube.com/channel/UCMki_UkHb4qSc0qyEcOHHJw",
+					spotify: "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
+				},
+			},
+			{
+				name: "Danielle", role: "Visual", animalLook: "Rabbit", image: "images/danielle.jpg",
+				link: "https://en.wikipedia.org/wiki/Danielle_Marsh",
+				socials: {
+					instagram: "https://www.instagram.com/newjeans_official/?hl=en",
+					youtube: "https://www.youtube.com/channel/UCMki_UkHb4qSc0qyEcOHHJw",
+					spotify: "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
+				},
+			},
+			{
+				name: "Hyein", role: "Vocalist", animalLook: "Cat", image: "images/hyein.jpg",
+				link: "https://en.wikipedia.org/wiki/Hyein",
+				socials: {
+					instagram: "https://www.instagram.com/newjeans_official/?hl=en",
+					youtube: "https://www.youtube.com/channel/UCMki_UkHb4qSc0qyEcOHHJw",
+					spotify: "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
+				},
+			}
 		]
 	},
 	"illit": {
@@ -435,10 +499,42 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/36cgvBn0aadzOijnjjwqMN"
 		},
 		members: [
-			{ name: "Moka", role: "Rapper", animalLook: "Dog", image: "images/moka.jpg" },
-			{ name: "Iroha", role: "Dancer", animalLook: "Hamster", image: "images/iroha.jpeg" },
-			{ name: "Wonhee", role: "Visual", animalLook: "Rabbit", image: "images/wonhee.jpeg" },
-			{ name: "Minju", role: "Vocalist", animalLook: "Cat", image: "images/minju.jpeg" }
+			{
+				name: "Moka", role: "Rapper", animalLook: "Dog", image: "images/moka.jpg",
+				link: "https://en.wikipedia.org/wiki/Illit",
+				socials: {
+					instagram: "https://www.instagram.com/illit_official/?hl=en",
+					youtube: "https://www.youtube.com/@ILLIT_official",
+					spotify: "https://open.spotify.com/artist/36cgvBn0aadzOijnjjwqMN"
+				},
+			},
+			{
+				name: "Iroha", role: "Dancer", animalLook: "Hamster", image: "images/iroha.jpeg",
+				link: "https://en.wikipedia.org/wiki/Illit",
+				socials: {
+					instagram: "https://www.instagram.com/illit_official/?hl=en",
+					youtube: "https://www.youtube.com/@ILLIT_official",
+					spotify: "https://open.spotify.com/artist/36cgvBn0aadzOijnjjwqMN"
+				},
+			},
+			{
+				name: "Wonhee", role: "Visual", animalLook: "Rabbit", image: "images/wonhee.jpeg",
+				link: "https://en.wikipedia.org/wiki/Illit",
+				socials: {
+					instagram: "https://www.instagram.com/illit_official/?hl=en",
+					youtube: "https://www.youtube.com/@ILLIT_official",
+					spotify: "https://open.spotify.com/artist/36cgvBn0aadzOijnjjwqMN"
+				},
+			},
+			{
+				name: "Minju", role: "Vocalist", animalLook: "Cat", image: "images/minju.jpeg",
+				link: "https://en.wikipedia.org/wiki/Illit",
+				socials: {
+					instagram: "https://www.instagram.com/illit_official/?hl=en",
+					youtube: "https://www.youtube.com/@ILLIT_official",
+					spotify: "https://open.spotify.com/artist/36cgvBn0aadzOijnjjwqMN"
+				},
+			}
 		]
 	},
 	"aespa": {
@@ -454,10 +550,42 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE"
 		},
 		members: [
-			{ name: "Karina", role: "Dancer", animalLook: "Cat", image: "images/karina.webp" },
-			{ name: "Winter", role: "Visual", animalLook: "Hamster", image: "images/winter.jpg" },
-			{ name: "Giselle", role: "Rapper", animalLook: "Dog", image: "images/giselle.jpg" },
-			{ name: "Ningning", role: "Vocalist", animalLook: "Cat", image: "images/ningning.jpg" }
+			{
+				name: "Karina", role: "Dancer", animalLook: "Cat", image: "images/karina.webp",
+				link: "https://en.wikipedia.org/wiki/Karina_(South_Korean_singer)",
+				socials: {
+					instagram: "https://www.instagram.com/katarinabluu/?hl=en",
+					youtube: "https://www.youtube.com/watch?v=pjMYA2UMF_M",
+					spotify: "https://open.spotify.com/artist/2qwDjeSYANOOBFU8jwtBXx"
+				},
+			},
+			{
+				name: "Winter", role: "Visual", animalLook: "Hamster", image: "images/winter.jpg",
+				link: "https://en.wikipedia.org/wiki/Winter_(singer)",
+				socials: {
+					instagram: "https://www.instagram.com/imwinter/?hl=en",
+					youtube: "https://www.youtube.com/watch?v=vGv73cfMcTs",
+					spotify: "https://open.spotify.com/artist/3mPquBmMu97Iq9TpzQ6ayI"
+				},
+			},
+			{
+				name: "Giselle", role: "Rapper", animalLook: "Dog", image: "images/giselle.jpg",
+				link: "https://en.wikipedia.org/wiki/Giselle_(singer)",
+				socials: {
+					instagram: "https://www.instagram.com/aerichandesu/?hl=en",
+					youtube: "https://www.youtube.com/watch?v=HwDxuWPFHsc",
+					spotify: "https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE"
+				},
+			},
+			{
+				name: "Ningning", role: "Vocalist", animalLook: "Cat", image: "images/ningning.jpg",
+				link: "https://en.wikipedia.org/wiki/Ningning",
+				socials: {
+					instagram: "https://www.instagram.com/imnotningning/?hl=en",
+					youtube: "https://www.youtube.com/watch?v=3eAOnazUdkM",
+					spotify: "https://open.spotify.com/artist/5t1uryofgueHrjrryqX8vM"
+				},
+			}
 		]
 	},
 	"nmixx": {
@@ -473,10 +601,42 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/28ot3wh4oNmoFOdVajibBl"
 		},
 		members: [
-			{ name: "Bae", role: "Dancer", animalLook: "Dog", image: "images/bae.jpg" },
-			{ name: "Sullyoon", role: "Visual", animalLook: "Rabbit", image: "images/sullyoon.jpg" },
-			{ name: "Kyujin", role: "Rapper", animalLook: "Cat", image: "images/kyujin.jpg" },
-			{ name: "Haewon", role: "Vocalist", animalLook: "Hamster", image: "images/haewon.jpg" }
+			{
+				name: "Bae", role: "Dancer", animalLook: "Dog", image: "images/bae.jpg",
+				link: "https://en.wikipedia.org/wiki/Nmixx",
+				socials: {
+					instagram: "https://www.instagram.com/nmixx_official/",
+					youtube: "https://www.youtube.com/channel/UCnUAyD4t2LkvW68YrDh7fDg",
+					spotify: "https://open.spotify.com/artist/28ot3wh4oNmoFOdVajibBl"
+				},
+			},
+			{
+				name: "Sullyoon", role: "Visual", animalLook: "Rabbit", image: "images/sullyoon.jpg",
+				link: "https://en.wikipedia.org/wiki/Nmixx",
+				socials: {
+					instagram: "https://www.instagram.com/nmixx_official/",
+					youtube: "https://www.youtube.com/channel/UCnUAyD4t2LkvW68YrDh7fDg",
+					spotify: "https://open.spotify.com/artist/28ot3wh4oNmoFOdVajibBl"
+				},
+			},
+			{
+				name: "Kyujin", role: "Rapper", animalLook: "Cat", image: "images/kyujin.jpg",
+				link: "https://en.wikipedia.org/wiki/Nmixx",
+				socials: {
+					instagram: "https://www.instagram.com/nmixx_official/",
+					youtube: "https://www.youtube.com/channel/UCnUAyD4t2LkvW68YrDh7fDg",
+					spotify: "https://open.spotify.com/artist/28ot3wh4oNmoFOdVajibBl"
+				},
+			},
+			{
+				name: "Haewon", role: "Vocalist", animalLook: "Hamster", image: "images/haewon.jpg",
+				link: "https://en.wikipedia.org/wiki/Nmixx",
+				socials: {
+					instagram: "https://www.instagram.com/nmixx_official/",
+					youtube: "https://www.youtube.com/channel/UCnUAyD4t2LkvW68YrDh7fDg",
+					spotify: "https://open.spotify.com/artist/28ot3wh4oNmoFOdVajibBl"
+				},
+			}
 		]
 	},
 	"babymonster": {
@@ -492,10 +652,42 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/1SIocsqdEefUTE6XKGUiVS"
 		},
 		members: [
-			{ name: "Ruka", role: "Rapper", animalLook: "Cat", image: "images/ruka.jpeg" },
-			{ name: "Ahyeon", role: "Vocalist", animalLook: "Dog", image: "images/ahyeon.jpeg" },
-			{ name: "Chiquita", role: "Dancer", animalLook: "Hamster", image: "images/chiquita.jpg" },
-			{ name: "Pharita", role: "Visual", animalLook: "Rabbit", image: "images/pharita.jpg" }
+			{
+				name: "Ruka", role: "Rapper", animalLook: "Cat", image: "images/ruka.jpeg",
+				link: "https://en.wikipedia.org/wiki/Babymonster",
+				socials: {
+					instagram: "https://www.instagram.com/babymonster_ygofficial/",
+					youtube: "https://www.youtube.com/channel/UCqwUnggBBct-AY2lAdI88jQ",
+					spotify: "https://open.spotify.com/artist/1SIocsqdEefUTE6XKGUiVS"
+				},
+			},
+			{
+				name: "Ahyeon", role: "Vocalist", animalLook: "Dog", image: "images/ahyeon.jpeg",
+				link: "https://en.wikipedia.org/wiki/Babymonster",
+				socials: {
+					instagram: "https://www.instagram.com/babymonster_ygofficial/",
+					youtube: "https://www.youtube.com/channel/UCqwUnggBBct-AY2lAdI88jQ",
+					spotify: "https://open.spotify.com/artist/1SIocsqdEefUTE6XKGUiVS"
+				},
+			},
+			{
+				name: "Chiquita", role: "Dancer", animalLook: "Hamster", image: "images/chiquita.jpg",
+				link: "https://en.wikipedia.org/wiki/Babymonster",
+				socials: {
+					instagram: "https://www.instagram.com/babymonster_ygofficial/",
+					youtube: "https://www.youtube.com/channel/UCqwUnggBBct-AY2lAdI88jQ",
+					spotify: "https://open.spotify.com/artist/1SIocsqdEefUTE6XKGUiVS"
+				},
+			},
+			{
+				name: "Pharita", role: "Visual", animalLook: "Rabbit", image: "images/pharita.jpg",
+				link: "https://en.wikipedia.org/wiki/Babymonster",
+				socials: {
+					instagram: "https://www.instagram.com/babymonster_ygofficial/",
+					youtube: "https://www.youtube.com/channel/UCqwUnggBBct-AY2lAdI88jQ",
+					spotify: "https://open.spotify.com/artist/1SIocsqdEefUTE6XKGUiVS"
+				},
+			}
 		]
 	},
 	"youngposse": {
@@ -511,10 +703,42 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/5bxwvIM9PX0CkpS6f1L2Ff"
 		},
 		members: [
-			{ name: "Sunhye", role: "Rapper", animalLook: "Hamster", image: "images/sunhye.jpg" },
-			{ name: "Yeonjung", role: "Vocalist", animalLook: "Rabbit", image: "images/yeonjung.jpg" },
-			{ name: "Jiana", role: "Dancer", animalLook: "Cat", image: "images/jiana.jpg" },
-			{ name: "Jieun", role: "Visual", animalLook: "Hamster", image: "images/jieun.jpg" }
+			{
+				name: "Sunhye", role: "Rapper", animalLook: "Hamster", image: "images/sunhye.jpg",
+				link: "https://en.wikipedia.org/wiki/Young_Posse",
+				socials: {
+					instagram: "https://www.instagram.com/youngposseup/?hl=en",
+					youtube: "https://www.youtube.com/@YOUNGPOSSEUP",
+					spotify: "https://open.spotify.com/artist/5bxwvIM9PX0CkpS6f1L2Ff"
+				},
+			},
+			{
+				name: "Yeonjung", role: "Vocalist", animalLook: "Rabbit", image: "images/yeonjung.jpg",
+				link: "https://en.wikipedia.org/wiki/Young_Posse",
+				socials: {
+					instagram: "https://www.instagram.com/youngposseup/?hl=en",
+					youtube: "https://www.youtube.com/@YOUNGPOSSEUP",
+					spotify: "https://open.spotify.com/artist/5bxwvIM9PX0CkpS6f1L2Ff"
+				},
+			},
+			{
+				name: "Jiana", role: "Dancer", animalLook: "Cat", image: "images/jiana.jpg",
+				link: "https://en.wikipedia.org/wiki/Young_Posse",
+				socials: {
+					instagram: "https://www.instagram.com/youngposseup/?hl=en",
+					youtube: "https://www.youtube.com/@YOUNGPOSSEUP",
+					spotify: "https://open.spotify.com/artist/5bxwvIM9PX0CkpS6f1L2Ff"
+				},
+			},
+			{
+				name: "Jieun", role: "Visual", animalLook: "Hamster", image: "images/jieun.jpg",
+				link: "https://en.wikipedia.org/wiki/Young_Posse",
+				socials: {
+					instagram: "https://www.instagram.com/youngposseup/?hl=en",
+					youtube: "https://www.youtube.com/@YOUNGPOSSEUP",
+					spotify: "https://open.spotify.com/artist/5bxwvIM9PX0CkpS6f1L2Ff"
+				},
+			}
 		]
 	}
 
@@ -666,14 +890,36 @@ function getBoyGroupMatch() {
 
 	if (genre === "upbeat & happy" && aesthetic === "fresh & youthful") {
 		return kpopGroups["Boynextdoor"];
-	} else if (genre === "experimental & edgy" && aesthetic === "futuristic & edgy") {
-		return kpopGroups["NCT 127"];
 	} else if (genre === "upbeat & happy" && aesthetic === "futuristic & edgy") {
 		return kpopGroups["NCT Dream"];
+	} else if (genre === "upbeat & happy" && aesthetic === "vintage & retro") {
+		return kpopGroups["TXT"];
+	} else if (genre === "upbeat & happy" && aesthetic === "dark & mysterious") {
+		return kpopGroups["TXT"];
 	} else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
 		return kpopGroups["Riize"];
+	} else if (genre === "chill & moody" && aesthetic === "fresh & youthful") {
+		return kpopGroups["Boynextdoor"];
+	} else if (genre === "chill & moody" && aesthetic === "futuristic & edgy") {
+		return kpopGroups["NCT 127"];
+	} else if (genre === "chill & moody" && aesthetic === "dark & mysterious") {
+		return kpopGroups["TXT"];
+	} else if (genre === "experimental & edgy" && aesthetic === "futuristic & edgy") {
+		return kpopGroups["NCT 127"];
+	} else if (genre === "experimental & edgy" && aesthetic === "fresh & youthful") {
+		return kpopGroups["NCT Dream"];
+	} else if (genre === "experimental & edgy" && aesthetic === "vintage & retro") {
+		return kpopGroups["Riize"];
+	} else if (genre === "experimental & edgy" && aesthetic === "dark & mysterious") {
+		return kpopGroups["Stray Kids"];
 	} else if (genre === "rap & hip-pop" && aesthetic === "dark & mysterious") {
 		return kpopGroups["Stray Kids"];
+	} else if (genre === "rap & hip-pop" && aesthetic === "fresh & youthful") {
+		return kpopGroups["Boynextdoor"];
+	} else if (genre === "rap & hip-pop" && aesthetic === "vintage & retro") {
+		return kpopGroups["Riize"];
+	} else if (genre === "rap & hip-pop" && aesthetic === "futuristic & edgy") {
+		return kpopGroups["NCT 127"];
 	} else {
 		return kpopGroups["TXT"]; // Default if no match
 	}
@@ -686,14 +932,36 @@ function getGirlGroupMatch() {
 
 	if (genre === "upbeat & happy" && aesthetic === "vintage & retro") {
 		return kpopGroups["Le sserafim"];
-	} else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
-		return kpopGroups["njz"];
+	} else if (genre === "upbeat & happy" && aesthetic === "futuristic & edgy") {
+		return kpopGroups["nmixx"];
+	} else if (genre === "upbeat & happy" && aesthetic === "dark & mysterious") {
+		return kpopGroups["aespa"];
 	} else if (genre === "upbeat & happy" && aesthetic === "fresh & youthful") {
 		return kpopGroups["illit"];
+	} else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
+		return kpopGroups["njz"];
+	} else if (genre === "chill & moody" && aesthetic === "fresh & youthful") {
+		return kpopGroups["illit"];
+	} else if (genre === "chill & moody" && aesthetic === "futuristic & edgy") {
+		return kpopGroups["nmixx"];
+	} else if (genre === "chill & moody" && aesthetic === "dark & mysterious") {
+		return kpopGroups["babymonster"];
 	} else if (genre === "experimental & edgy" && aesthetic === "futuristic & edgy") {
 		return kpopGroups["aespa"];
+	} else if (genre === "experimental & edgy" && aesthetic === "fresh & youthful") {
+		return kpopGroups["Le sserafim"];
+	} else if (genre === "experimental & edgy" && aesthetic === "vintage & retro") {
+		return kpopGroups["njz"];
+	} else if (genre === "experimental & edgy" && aesthetic === "dark & mysterious") {
+		return kpopGroups["nmixx"];
 	} else if (genre === "rap & hip-pop" && aesthetic === "dark & mysterious") {
 		return kpopGroups["babymonster"];
+	} else if (genre === "rap & hip-pop" && aesthetic === "fresh & youthful") {
+		return kpopGroups["Le sserafim"];
+	} else if (genre === "rap & hip-pop" && aesthetic === "vintage & retro") {
+		return kpopGroups["youngposse"];
+	} else if (genre === "rap & hip-pop" && aesthetic === "futuristic & edgy") {
+		return kpopGroups["aespa"];
 	} else {
 		return kpopGroups["aespa"]; // Default if no match
 	}
@@ -706,16 +974,36 @@ function getAnyGroupMatch() {
 
 	if (genre === "upbeat & happy" && aesthetic === "fresh & youthful") {
 		return kpopGroups["TWS"];
-	} else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
-		return kpopGroups["TXT"];
 	} else if (genre === "upbeat & happy" && aesthetic === "futuristic & edgy") {
 		return kpopGroups["NCT Dream"];
+	} else if (genre === "upbeat & happy" && aesthetic === "dark & mysterious") {
+		return kpopGroups["aespa"];
+	} else if (genre === "upbeat & happy" && aesthetic === "vintage & retro") {
+		return kpopGroups["aespa"];
+	} else if (genre === "chill & moody" && aesthetic === "vintage & retro") {
+		return kpopGroups["TXT"];
 	} else if (genre === "chill & moody" && aesthetic === "fresh & youthful") {
 		return kpopGroups["illit"];
+	} else if (genre === "chill & moody" && aesthetic === "dark & mysterious") {
+		return kpopGroups["babymonster"];
+	} else if (genre === "chill & moody" && aesthetic === "futuristic & edgy") {
+		return kpopGroups["NCT 127"];
 	} else if (genre === "rap & hip-pop" && aesthetic === "vintage & retro") {
 		return kpopGroups["youngposse"];
+	} else if (genre === "rap & hip-pop" && aesthetic === "fresh & youthful") {
+		return kpopGroups["Boynextdoor"];
 	} else if (genre === "rap & hip-pop" && aesthetic === "dark & mysterious") {
 		return kpopGroups["Stray Kids"];
+	} else if (genre === "rap & hip-pop" && aesthetic === "futuristic & edgy") {
+		return kpopGroups["aespa"];
+	} else if (genre === "experimental & edgy" && aesthetic === "vintage & retro") {
+		return kpopGroups["njz"];
+	} else if (genre === "experimental & edgy" && aesthetic === "dark & mysterious") {
+		return kpopGroups["nmixx"];
+	} else if (genre === "experimental & edgy" && aesthetic === "fresh & youthful") {
+		return kpopGroups["NCT Dream"];
+	} else if (genre === "experimental & edgy" && aesthetic === "futuristic & edgy") {
+		return kpopGroups["NCT 127"];
 	} else {
 		return kpopGroups["njz"]; // Default if no match
 	}
