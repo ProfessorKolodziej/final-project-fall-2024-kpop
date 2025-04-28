@@ -79,13 +79,54 @@ const kpopGroups = {
 			youtube: "https://www.youtube.com/channel/UCXURHJRGr4-EB3l87kcbElw",
 			spotify: "https://open.spotify.com/artist/1gBUSTR3TyDdTVFIaQnc02"
 		},
-		members: [
-			{ name: "Jaemin", role: "Visual", animalLook: "Rabbit", image: "images/jaemin.jpg" },
-			{ name: "Jisung", role: "Dancer", animalLook: "Hamster", image: "images/jisung.jpg" },
-			{ name: "Haechan", role: "Vocalist", animalLook: "Dog", image: "images/haechan.webp" },
-			{ name: "Chenle", role: "Vocalist", animalLook: "Cat", image: "images/chenle.jpg" },
-			{ name: "Jeno", role: "Rapper", animalLook: "Dog", image: "images/jeno.jpg" },
-		]
+		members:
+			[
+				{
+					name: "Jaemin", role: "Visual", animalLook: "Rabbit", image: "images/jaemin.jpg",
+					link: "https://en.wikipedia.org/wiki/Jaemin",
+					socials: {
+						instagram: "https://www.instagram.com/na.jaemin0813/?hl=en",
+						youtube: "https://www.youtube.com/channel/UCXURHJRGr4-EB3l87kcbElw",
+						spotify: "https://open.spotify.com/artist/1gBUSTR3TyDdTVFIaQnc02"
+					}
+				},
+				{
+					name: "Jisung", role: "Dancer", animalLook: "Hamster", image: "images/jisung.jpg",
+					link: "https://en.wikipedia.org/wiki/Jisung",
+					socials: {
+						instagram: "https://www.instagram.com/the__and.y/?hl=en",
+						youtube: "https://www.youtube.com/watch?v=KEaHI-_H_6Q&pp=ygUGI3JtbnRj",
+						spotify: "https://open.spotify.com/artist/1gBUSTR3TyDdTVFIaQnc02"
+					}
+				},
+				{
+					name: "Haechan", role: "Vocalist", animalLook: "Dog", image: "images/haechan.webp",
+					link: "https://en.wikipedia.org/wiki/Haechan",
+					socials: {
+						instagram: "https://www.instagram.com/haechanahceah/?hl=en",
+						youtube: "https://www.youtube.com/watch?v=0yzxJz-hHcc",
+						spotify: "https://open.spotify.com/artist/1pHMYguhayIoXmPjoOUyu3"
+					}
+				},
+				{
+					name: "Chenle", role: "Vocalist", animalLook: "Cat", image: "images/chenle.jpg",
+					link: "https://en.wikipedia.org/wiki/Chenle",
+					socials: {
+						instagram: "https://www.instagram.com/kh1000le/?hl=en",
+						youtube: "https://www.youtube.com/watch?v=KEaHI-_H_6Q&pp=ygUGI3JtbnRj",
+						spotify: "https://open.spotify.com/artist/6mt12wGFaBAJPjK076GOJz"
+					}
+				},
+				{
+					name: "Jeno", role: "Rapper", animalLook: "Dog", image: "images/jeno.jpg",
+					link: "https://en.wikipedia.org/wiki/Jeno_(singer)",
+					socials: {
+						instagram: "https://www.instagram.com/leejen_o_423/?hl=en",
+						youtube: "https://www.youtube.com/channel/UCXURHJRGr4-EB3l87kcbElw",
+						spotify: "https://open.spotify.com/artist/1gBUSTR3TyDdTVFIaQnc02"
+					},
+				}
+			]
 	},
 	"Boynextdoor": {
 		name: "Boynextdoor",
