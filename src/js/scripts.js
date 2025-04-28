@@ -51,11 +51,11 @@ const kpopGroups = {
 			},
 			{
 				name: "Doyoung", role: "Vocalist", animalLook: "Rabbit", image: "images/doyoung.jpg",
-				link: "https://en.wikipedia.org/wiki/Mark_(rapper)",
+				link: "https://en.wikipedia.org/wiki/Doyoung",
 				socials: {
-					instagram: "https://www.instagram.com/onyourm__ark/?hl=en",
-					youtube: "https://youtu.be/c6PeWqj-moU?feature=shared",
-					spotify: "https://open.spotify.com/artist/70DFixYAFPv4Pf9kgSfR9O"
+					instagram: "https://www.instagram.com/do0_nct/?hl=en",
+					youtube: "https://www.youtube.com/watch?v=UZjGcAjd8Ok",
+					spotify: "https://open.spotify.com/artist/5IMXUzbeAyevQmvtOhXQGi"
 				}
 			},
 			{
