@@ -149,7 +149,7 @@ const kpopGroups = {
 				},
 			},
 			{
-				name: "Leehan", role: "Visual", animalLook: "Cat", image: "images/leehan.jpg",
+				name: "Leehan", role: "Visual", animalLook: "Dog", image: "images/leehan.jpg",
 				link: "https://en.wikipedia.org/wiki/Boynextdoor",
 				socials: {
 					instagram: "https://www.instagram.com/boynextdoor_official/?hl=en",
