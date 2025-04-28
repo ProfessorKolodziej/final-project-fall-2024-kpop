@@ -28,42 +28,50 @@ const kpopGroups = {
 	"NCT 127": {
 		name: "NCT 127",
 		groupType: "Boy",
-		answers: [
-			{
-				gender: "boy group",
-				genre: "experimental & edgy",
-				aesthetic: "futuristic & edgy"
-			},
-			{
-				gender: "either",
-				genre: "experimental & edgy",
-				aesthetic: "futuristic & edgy"
-			}
-		],
 		link: "https://en.wikipedia.org/wiki/NCT_127",
 		image: "images/result-nct127.jpg",
 		members: [
-			{ name: "Jaehyun", role: "Visual", animalLook: "Dog", image: "images/jaehyun.jpeg" },
-			{ name: "Taeyong", role: "Dancer", animalLook: "Cat", image: "images/taeyong.jpg" },
-			{ name: "Doyoung", role: "Vocalist", animalLook: "Rabbit", image: "images/doyoung.jpg" },
-			{ name: "Mark", role: "Rapper", animalLook: "Cat", image: "images/result-marklee.jpg" },
+			{
+				name: "Jaehyun", role: "Visual", animalLook: "Dog", image: "images/jaehyun.jpeg",
+				link: "https://en.wikipedia.org/wiki/Jaehyun",
+				socials: {
+					instagram: "https://www.instagram.com/_jeongjaehyun/?hl=en",
+					youtube: "https://www.youtube.com/watch?v=lJGCD3H9xcg",
+					spotify: "https://open.spotify.com/artist/0qQI2kmsvSe2ex9k94T5vu"
+				}
+			},
+			{
+				name: "Taeyong", role: "Dancer", animalLook: "Cat", image: "images/taeyong.jpg",
+				link: "https://en.wikipedia.org/wiki/Taeyong",
+				socials: {
+					instagram: "https://www.instagram.com/taeoxo_nct/?hl=en",
+					youtube: "https://www.youtube.com/c/TAEYONG_TYTRACK",
+					spotify: "https://open.spotify.com/artist/6SKusTjOAPsTZ6kareKQdm"
+				}
+			},
+			{
+				name: "Doyoung", role: "Vocalist", animalLook: "Rabbit", image: "images/doyoung.jpg",
+				link: "https://en.wikipedia.org/wiki/Mark_(rapper)",
+				socials: {
+					instagram: "https://www.instagram.com/onyourm__ark/?hl=en",
+					youtube: "https://youtu.be/c6PeWqj-moU?feature=shared",
+					spotify: "https://open.spotify.com/artist/70DFixYAFPv4Pf9kgSfR9O"
+				}
+			},
+			{
+				name: "Mark", role: "Rapper", animalLook: "Cat", image: "images/result-marklee.jpg",
+				link: "https://en.wikipedia.org/wiki/Mark_(rapper)",
+				socials: {
+					instagram: "https://www.instagram.com/onyourm__ark/?hl=en",
+					youtube: "https://youtu.be/c6PeWqj-moU?feature=shared",
+					spotify: "https://open.spotify.com/artist/70DFixYAFPv4Pf9kgSfR9O"
+				}
+			},
 		]
 	},
 	"NCT Dream": {
 		name: "NCT Dream",
 		groupType: "Boy",
-		answers: [
-			{
-				gender: "boy group",
-				genre: "experimental & edgy",
-				aesthetic: "fresh & youthful"
-			},
-			{
-				gender: "either",
-				genre: "experimental & edgy",
-				aesthetic: "fresh & youthful"
-			}
-		],
 		link: "https://en.wikipedia.org/wiki/NCT_Dream",
 		image: "images/nctdream.webp",
 		socials: {
@@ -74,7 +82,7 @@ const kpopGroups = {
 		members: [
 			{ name: "Jaemin", role: "Visual", animalLook: "Rabbit", image: "images/jaemin.jpg" },
 			{ name: "Jisung", role: "Dancer", animalLook: "Hamster", image: "images/jisung.jpg" },
-			{ name: "Haechan", role: "Vocalist", animalLook: "Dog", image: "images/haechan.jpg" },
+			{ name: "Haechan", role: "Vocalist", animalLook: "Dog", image: "images/haechan.webp" },
 			{ name: "Chenle", role: "Vocalist", animalLook: "Cat", image: "images/chenle.jpg" },
 			{ name: "Jeno", role: "Rapper", animalLook: "Dog", image: "images/jeno.jpg" },
 		]
@@ -82,8 +90,6 @@ const kpopGroups = {
 	"Boynextdoor": {
 		name: "Boynextdoor",
 		groupType: "Boy",
-		genre: "Upbeat & Happy",
-		aesthetic: "Fresh & Youthful",
 		link: "https://en.wikipedia.org/wiki/Boynextdoor",
 		image: "images/boynextdoor.webp",
 		socials: {
@@ -92,9 +98,9 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/4hnHLgMSOiqERWBL4jINP1"
 		},
 		members: [
-			{ name: "Taesan", role: "Visual", animalLook: "Cat", image: "images/taesan.jpg" },
+			{ name: "Taesan", role: "Visual", animalLook: "Cat", image: "images/taesan.jpeg" },
 			{ name: "Leehan", role: "Visual", animalLook: "Cat", image: "images/leehan.jpg" },
-			{ name: "Jaehyun", role: "Rapper", animalLook: "Dog", image: "images/jaehyun.jpg" },
+			{ name: "Jaehyun", role: "Rapper", animalLook: "Dog", image: "images/jaehyunm.jpg" },
 			{ name: "Woonhak", role: "Vocalist", animalLook: "Hamster", image: "images/woonhak.jpg" },
 			{ name: "Riwoo", role: "Dancer", animalLook: "Dog", image: "images/riwoo.jpg" }
 		]
@@ -102,8 +108,6 @@ const kpopGroups = {
 	"TWS": {
 		name: "TWS",
 		groupType: "Boy",
-		genre: "Upbeat & Happy",
-		aesthetic: "Fresh & Youthful",
 		link: "https://en.wikipedia.org/wiki/TWS_(group)",
 		image: "images/TWS.jpg",
 		socials: {
@@ -121,8 +125,6 @@ const kpopGroups = {
 	"Riize": {
 		name: "Riize",
 		groupType: "Boy",
-		genre: "Chill & Moody",
-		aesthetic: "Vintage / Retro",
 		link: "https://en.wikipedia.org/wiki/Riize",
 		image: "images/RIIZE.jpeg",
 		socials: {
@@ -140,8 +142,6 @@ const kpopGroups = {
 	"TXT": {
 		name: "TXT",
 		groupType: "Boy",
-		genre: "Chill & Moody",
-		aesthetic: "Vintage / Retro",
 		link: "https://en.wikipedia.org/wiki/Tomorrow_X_Together",
 		image: "images/txt.jpg",
 		socials: {
@@ -150,17 +150,15 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/0ghlgldX5Dd6720Q3qFyQB"
 		},
 		members: [
-			{ name: "Yeonjun", role: "Dancer", animalLook: "Cat", image: "images/Shotaro.jpg" },
-			{ name: "Beomgyu", role: "Visual", animalLook: "Hamster", image: "images/Wonbin.jpg" },
-			{ name: "Taehyun", role: "Vocalist", animalLook: "Dog", image: "images/Sohee.jpg" },
-			{ name: "Soobin", role: "Rapper", animalLook: "Rabbit", image: "images/sungchan.jpg" }
+			{ name: "Yeonjun", role: "Dancer", animalLook: "Cat", image: "images/yeonjun.jpg" },
+			{ name: "Beomgyu", role: "Visual", animalLook: "Hamster", image: "images/beomgyu.jpg" },
+			{ name: "Taehyun", role: "Vocalist", animalLook: "Dog", image: "images/taehyun.webp" },
+			{ name: "Soobin", role: "Rapper", animalLook: "Rabbit", image: "images/soobin.jpg" }
 		]
 	},
 	"Stray Kids": {
 		name: "Stray Kids",
 		groupType: "Boy",
-		genre: "Rap & Hip-pop",
-		aesthetic: "Dark & Mysterious",
 		link: "https://en.wikipedia.org/wiki/Stray_Kids",
 		image: "images/straykids.jpg",
 		socials: {
@@ -170,7 +168,7 @@ const kpopGroups = {
 		},
 		members: [
 			{ name: "Seungmin", role: "Vocalist", animalLook: "Dog", image: "images/bangchan.jpg" },
-			{ name: "Lee Know", role: "Dancer", animalLook: "Dog", image: "images/leenow.jpg" },
+			{ name: "Lee Know", role: "Dancer", animalLook: "Dog", image: "images/leeknow.webp" },
 			{ name: "Changbin", role: "Rapper", animalLook: "Rabbit", image: "images/changbin.jpg" },
 			{ name: "Hyunjin", role: "Visual", animalLook: "Cat", image: "images/hyunjin.jpg" }
 		]
@@ -304,10 +302,10 @@ const kpopGroups = {
 			spotify: "https://open.spotify.com/artist/5bxwvIM9PX0CkpS6f1L2Ff"
 		},
 		members: [
-			{ name: "Sunhye", role: "Rapper", animalLook: "Hamster", image: "images/ruka.jpg" },
-			{ name: "Yeonjung", role: "Vocalist", animalLook: "Rabbit", image: "images/ahyeon.jpg" },
-			{ name: "Jiana", role: "Dancer", animalLook: "Cat", image: "images/chiquita.jpg" },
-			{ name: "Jieun", role: "Visual", animalLook: "Hamster", image: "images/pharita.jpg" }
+			{ name: "Sunhye", role: "Rapper", animalLook: "Hamster", image: "images/sunhye.jpg" },
+			{ name: "Yeonjung", role: "Vocalist", animalLook: "Rabbit", image: "images/yeonjung.jpg" },
+			{ name: "Jiana", role: "Dancer", animalLook: "Cat", image: "images/jiana.jpg" },
+			{ name: "Jieun", role: "Visual", animalLook: "Hamster", image: "images/jieun.jpg" }
 		]
 	}
 
@@ -562,89 +560,68 @@ function showGroupResult() {
 	}
 }
 
-// Add this function to get bias match
 function getBiasMatch() {
-	// Check if we have a group match
-	if (!currentMatchedGroup) {
-		return null;
-	}
+	if (!currentMatchedGroup) return null;
 
-	// Get standardized role and animal look
 	const role = formatText(userResults.role);
 	const animalLook = formatText(userResults.animalLook);
 
-	// Check which group we're working with
-	if (currentMatchedGroup.name === "NCT 127") {
-		// NCT 127 specific matching
-		if (role === "visual") {
-			return currentMatchedGroup.members[0]; // Jaehyun
-		} else if (role === "dancer") {
-			return currentMatchedGroup.members[1]; // Taeyong
-		} else if (role === "vocalist") {
-			return currentMatchedGroup.members[2]; // Doyoung
-		} else if (role === "rapper") {
-			return currentMatchedGroup.members[3]; // Mark
-		} else {
-			return currentMatchedGroup.members[0]; // Default to Jaehyun
-		}
-	} else if (currentMatchedGroup.name === "Stray Kids") {
-		// Stray Kids specific matching
-		if (role === "vocalist") {
-			return currentMatchedGroup.members[0]; // Seungmin
-		} else if (role === "dancer") {
-			return currentMatchedGroup.members[1]; // Lee Know
-		} else if (role === "rapper") {
-			return currentMatchedGroup.members[2]; // Changbin
-		} else if (role === "visual") {
-			return currentMatchedGroup.members[3]; // Hyunjin
-		} else {
-			return currentMatchedGroup.members[0]; // Default to Seungmin
-		}
+	let bestMatch = null;
 
-	} else {
-		// For other groups, find best match based on both role and animal look
-		let bestMatch = currentMatchedGroup.members[0];
-
-		// Check for exact match (both role and animal look)
-		for (const member of currentMatchedGroup.members) {
-			if (formatText(member.role) === role && formatText(member.animalLook) === animalLook) {
-				return member; // Perfect match, return immediately
-			}
+	// 先精准匹配 role + animalLook
+	for (const member of currentMatchedGroup.members) {
+		if (formatText(member.role) === role && formatText(member.animalLook) === animalLook) {
+			return member;
 		}
-
-		// If no perfect match, prioritize matching by role
-		for (const member of currentMatchedGroup.members) {
-			if (formatText(member.role) === role) {
-				return member;
-			}
-		}
-
-		// If still no match, try matching just by animal look
-		for (const member of currentMatchedGroup.members) {
-			if (formatText(member.animalLook) === animalLook) {
-				return member;
-			}
-		}
-
-		// If no matches at all, return the first member as default
-		return bestMatch;
 	}
+
+	// 如果没有精准 match，就只按 role 匹配
+	for (const member of currentMatchedGroup.members) {
+		if (formatText(member.role) === role) {
+			return member;
+		}
+	}
+
+	// 如果还没有，就按 animal look 匹配
+	for (const member of currentMatchedGroup.members) {
+		if (formatText(member.animalLook) === animalLook) {
+			return member;
+		}
+	}
+
+	// 如果都没有，就默认第一个成员
+	return currentMatchedGroup.members[0];
 }
 
-// Function to show bias result
 function showBiasResult() {
 	const matchedBias = getBiasMatch();
+	console.log('Matched Bias:', matchedBias); // Debug 看看有没有拿到正确成员！
 
 	if (matchedBias) {
-		// Update the bias result page
+		// 更新名字
 		document.querySelector(".result-bias .result-name").textContent = matchedBias.name;
-		document.querySelector(".result-bias .result-images").src = matchedBias.image;
 
-		// Update background
+		// 更新小图
+		document.querySelector(".bias-result-image").src = matchedBias.image;
+
+		// 更新背景（这里可以用 member 的图片，或者独立 backgroundImage）
 		const biasSection = document.querySelector(".result-bias");
-		biasSection.style.backgroundImage = `url(${matchedBias.image})`;
 		biasSection.style.backgroundSize = "cover";
 		biasSection.style.backgroundPosition = "center";
+
+		// 更新 about 链接（如果你在 member 里面加了 link 字段）
+		const aboutBiasBtn = document.querySelector('.result-bias .result-bias-btn-list a');
+		if (aboutBiasBtn && matchedBias.link) {
+			aboutBiasBtn.href = matchedBias.link;
+		}
+
+		// 更新 social buttons
+		const socialLinks = document.querySelectorAll('.result-bias .social-btn a');
+		if (matchedBias.socials) {
+			socialLinks[0].href = matchedBias.socials.instagram;
+			socialLinks[1].href = matchedBias.socials.youtube;
+			socialLinks[2].href = matchedBias.socials.spotify;
+		}
 	}
 }
 
