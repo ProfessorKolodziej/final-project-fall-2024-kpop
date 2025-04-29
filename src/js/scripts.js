@@ -696,7 +696,7 @@ const kpopGroups = {
 		genre: "Rap & Hip-pop",
 		aesthetic: "Dark & Mysterious",
 		link: "https://en.wikipedia.org/wiki/Young_Posse",
-		image: "images/Young_Posse.jpg",
+		image: "images/youngposse.jpeg",
 		socials: {
 			instagram: "https://www.instagram.com/youngposseup/?hl=en",
 			youtube: "https://www.youtube.com/@YOUNGPOSSEUP",
