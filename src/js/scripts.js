@@ -256,7 +256,7 @@ const kpopGroups = {
 				},
 			},
 			{
-				name: "Wonbin", role: "Visual", animalLook: "Cat", image: "images/Wonbin.jpeg",
+				name: "Wonbin", role: "Visual", animalLook: "Cat", image: "images/Wonbin.jpg",
 				link: "https://en.wikipedia.org/wiki/Riize",
 				socials: {
 					instagram: "https://www.instagram.com/riize_official/?hl=en",
@@ -274,7 +274,7 @@ const kpopGroups = {
 				},
 			},
 			{
-				name: "Sungchan", role: "Rapper", animalLook: "Dog", image: "images/sungchan.jpeg",
+				name: "Sungchan", role: "Rapper", animalLook: "Dog", image: "images/sungchan.jpg",
 				link: "https://en.wikipedia.org/wiki/Riize",
 				socials: {
 					instagram: "https://www.instagram.com/riize_official/?hl=en",
