@@ -100,7 +100,7 @@ const kpopGroups = {
 					}
 				},
 				{
-					name: "Haechan", role: "Vocalist", animalLook: "Dog", image: "images/haechan.webp",
+					name: "Haechan", role: "Vocalist", animalLook: "Dog", image: "images/haechan.jpg",
 					link: "https://en.wikipedia.org/wiki/Haechan",
 					socials: {
 						instagram: "https://www.instagram.com/haechanahceah/?hl=en",
