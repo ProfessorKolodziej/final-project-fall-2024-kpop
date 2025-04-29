@@ -1155,3 +1155,13 @@ document.querySelectorAll(".quiz-5-btn").forEach(button => {
 		showSection(sections[7]); // Show the bias result page
 	});
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+	document.querySelector(".share-btn-twitter").addEventListener("click", () => {
+		const shareText = "Check out my perfect K-pop match!";
+		const shareUrl = window.location.href;
+
+		const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`;
+		window.open(twitterUrl, "_blank");
+	});
+});

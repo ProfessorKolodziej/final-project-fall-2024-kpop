@@ -234,11 +234,12 @@ img {
 	justify-items: center;
 }
 
-.result-btn {
+.result-btn,
+.share-btn-twitter {
 	background-color: #AB312A;
 	color: white;
 	border: none;
-	padding: 10px 20px;
+	padding: 8px 20px;
 	cursor: pointer;
 	width: 150px;
 	font-size: 16px;
@@ -247,15 +248,17 @@ img {
 
 .result-group-btn-list,
 .result-bias-btn-list {
+	padding-top: 30px;
 	display: grid;
 	grid-template-columns: repeat(2, auto);
 	gap: 20px;
 	justify-content: center;
-	padding-top: 20px;
+	z-index: 3;
 }
 
 .result-title,
-.result-btn {
+.result-btn,
+.share-btn-twitter {
 	text-transform: capitalize;
 }
 
@@ -391,7 +394,14 @@ img {
 		font-size: 35px;
 	}
 
-	.result-btn {
+	.result-images,
+	.bias-result-image {
+		height: 100vh;
+		object-fit: cover;
+	}
+
+	.result-btn,
+	.share-btn-twitter {
 		width: 200px;
 		height: 50px;
 		font-size: 25px;
@@ -546,5 +556,9 @@ img {
 		bottom: 15px;
 		right: 30px;
 		gap: 15px;
+	}
+
+	.share-btn-twitter {
+		font-size: 25px;
 	}
 }
