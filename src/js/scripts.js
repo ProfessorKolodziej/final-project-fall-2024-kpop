@@ -1,12 +1,6 @@
-// This is where you should write all JavaScript
-// for your project. Remember a few things as you start!
-// - Use let or const for all variables
-// - Do not use jQuery - use JavaScript instead
-// - Do not use onclick - use addEventListener instead
-// - Run npm run test regularly to check autograding
-// - You'll need to link this file to your HTML :)
 
-
+//GradeAI, "How to add an event listener for the share button that opens X’s share link or allows copying a link?"
+//GradeAI, "How to replace context with different results?"
 
 const kpopGroups = {
 	"NCT 127": {
