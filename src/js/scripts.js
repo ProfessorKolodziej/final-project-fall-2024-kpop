@@ -1,6 +1,6 @@
 
-//GradeAI, "How to add an event listener for the share button that opens X’s share link or allows copying a link?"
-//GradeAI, "How to replace context with different results?"
+//Claude AI, "How to add an event listener for the share button that opens X’s share link or allows copying a link?"
+//Claude AI, "How to replace context with different results?"
 
 const kpopGroups = {
 	"NCT 127": {
