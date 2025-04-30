@@ -1112,24 +1112,18 @@ function showBiasResult() {
 	//console.log('Matched Bias:', matchedBias); // Debug 看看有没有拿到正确成员！
 
 	if (currentMatchedBias) {
-		// 更新名字
+		// Update bias name
 		document.querySelector(".result-bias .result-name").textContent = currentMatchedBias.name;
 
-		// 更新小图
+		// Update bias image
 		document.querySelector(".bias-result-image").src = currentMatchedBias.image;
 
-		// 更新背景（这里可以用 member 的图片，或者独立 backgroundImage）
+		// Update bias background image
 		const biasSection = document.querySelector(".result-bias");
 		biasSection.style.backgroundSize = "cover";
 		biasSection.style.backgroundPosition = "center";
 
-		// 更新 about 链接（如果你在 member 里面加了 link 字段）
-		//const aboutBiasBtn = document.querySelector('.result-bias .result-bias-btn-list a');
-		//if (aboutBiasBtn && matchedBias.link) {
-		//aboutBiasBtn.href = matchedBias.link;
-		//}
-
-		// 更新 social buttons
+		// Update social buttons
 		const socialLinks = document.querySelectorAll('.result-bias .social-btn a');
 		if (currentMatchedBias.socials) {
 			socialLinks[0].href = currentMatchedBias.socials.instagram;
@@ -1138,7 +1132,6 @@ function showBiasResult() {
 		}
 	}
 }
-
 
 // Add these event listeners to capture role and animal look choices
 document.querySelectorAll(".quiz-4-btn").forEach(button => {
