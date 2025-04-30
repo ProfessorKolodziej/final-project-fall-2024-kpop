@@ -1156,12 +1156,17 @@ document.querySelectorAll(".quiz-5-btn").forEach(button => {
 	});
 });
 
+// share button
 document.addEventListener("DOMContentLoaded", () => {
-	document.querySelector(".share-btn-twitter").addEventListener("click", () => {
-		const shareText = "Check out my perfect K-pop match!";
-		const shareUrl = window.location.href;
+	// Event listener for group matching share button
+	document.querySelectorAll(".share-btn-twitter").forEach(button => {
+		button.addEventListener("click", () => {
+			const shareText = "Check out my perfect K-pop match!";
+			const shareUrl = window.location.href;
 
-		const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`;
-		window.open(twitterUrl, "_blank");
+			const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`;
+			window.open(twitterUrl, "_blank");
+		});
 	});
 });
+
