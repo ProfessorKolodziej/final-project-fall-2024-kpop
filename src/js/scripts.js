@@ -6,9 +6,9 @@
 // - Run npm run test regularly to check autograding
 // - You'll need to link this file to your HTML :)
 
-// Defining all the K-pop group data as an object
+
+
 const kpopGroups = {
-	// Boy Groups
 	"NCT 127": {
 		name: "NCT 127",
 		groupType: "Boy",
@@ -367,7 +367,6 @@ const kpopGroups = {
 		]
 	},
 
-	// Girl Groups
 	"Le sserafim": {
 		name: "Le sserafim",
 		groupType: "Girl",
