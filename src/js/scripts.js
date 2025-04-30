@@ -6,22 +6,6 @@
 // - Run npm run test regularly to check autograding
 // - You'll need to link this file to your HTML :)
 
-
-/* const startBtn = document.querySelector(".home-btn");
-
-function goToNext() {
-	const thisSection = this.closest(".homepage");
-	const nextSection = document.querySelector(".quiz-1");
-
-	thisSection.classList.toggle("show");
-	nextSection.classList.toggle("show");
-}
-
-startBtn.addEventListener("click", goToNext);*/
-
-
-
-
 // Defining all the K-pop group data as an object
 const kpopGroups = {
 	// Boy Groups
@@ -827,7 +811,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	});
 });
 
-// store user input
 let userResults = {
 	gender: "",
 	genre: "",
@@ -836,12 +819,10 @@ let userResults = {
 	animalLook: ""
 };
 
-// collect user input
 document.querySelectorAll(".quiz-1-btn").forEach(button => {
 	button.addEventListener("click", () => {
-		userResults.gender = button.textContent;  // Store the selected answer
+		userResults.gender = button.textContent;
 
-		// Move to the next section
 		showSection(sections[2]);
 	});
 });
@@ -863,16 +844,13 @@ document.querySelectorAll(".quiz-3-btn").forEach(button => {
 });
 
 
-// Helper function to standardize text formatting
 function formatText(text) {
 	return text.trim().toLowerCase();
 }
 
-// Match the group function
 function getGroupMatch() {
 	let matchedGroup = null;
 
-	// First, filter by gender preference with standardized text
 	const gender = formatText(userResults.gender);
 
 	if (gender === "boy group") {
@@ -886,7 +864,6 @@ function getGroupMatch() {
 	return matchedGroup;
 }
 
-// Logic to match Boy Groups
 function getBoyGroupMatch() {
 	const genre = formatText(userResults.genre);
 	const aesthetic = formatText(userResults.aesthetic);
@@ -924,11 +901,10 @@ function getBoyGroupMatch() {
 	} else if (genre === "rap & hip-pop" && aesthetic === "futuristic & edgy") {
 		return kpopGroups["NCT 127"];
 	} else {
-		return kpopGroups["TXT"]; // Default if no match
+		return kpopGroups["TXT"];
 	}
 }
 
-// Logic to match Girl Groups
 function getGirlGroupMatch() {
 	const genre = formatText(userResults.genre);
 	const aesthetic = formatText(userResults.aesthetic);
@@ -966,11 +942,10 @@ function getGirlGroupMatch() {
 	} else if (genre === "rap & hip-pop" && aesthetic === "futuristic & edgy") {
 		return kpopGroups["aespa"];
 	} else {
-		return kpopGroups["aespa"]; // Default if no match
+		return kpopGroups["aespa"];
 	}
 }
 
-// Logic to match Either group
 function getAnyGroupMatch() {
 	const genre = formatText(userResults.genre);
 	const aesthetic = formatText(userResults.aesthetic);
@@ -1008,21 +983,18 @@ function getAnyGroupMatch() {
 	} else if (genre === "experimental & edgy" && aesthetic === "futuristic & edgy") {
 		return kpopGroups["NCT 127"];
 	} else {
-		return kpopGroups["njz"]; // Default if no match
+		return kpopGroups["njz"];
 	}
 }
 
-// Update result with background image
 function showGroupResult() {
 	const matchedGroup = getGroupMatch();
 
 	if (matchedGroup) {
-		// Update the result page with the matched group's data
 		document.querySelector(".result-name").textContent = matchedGroup.name;
 		document.querySelector(".result-images").src = matchedGroup.image;
 		document.querySelector(".result-group-btn-list a").href = matchedGroup.link;
 
-		// Override the background
 		const resultSection = document.querySelector(".result-group");
 		resultSection.style.backgroundImage = `url(${matchedGroup.image})`;
 		resultSection.style.backgroundSize = "cover";
@@ -1030,23 +1002,20 @@ function showGroupResult() {
 	}
 }
 
-// Don't attach to just one button - update the quiz-3-btn click handler instead
 document.querySelectorAll(".quiz-3-btn").forEach(button => {
 	button.addEventListener("click", () => {
 		userResults.aesthetic = button.textContent;
-		showGroupResult();  // Calculate and show result immediately
-		showSection(sections[4]);  // Show the result group page
+		showGroupResult();
+		showSection(sections[4]);
 	});
 });
 
-// Store the matched group
 let currentMatchedGroup = null;
 
 function showGroupResult() {
 	currentMatchedGroup = getGroupMatch();
 
 	if (currentMatchedGroup) {
-		// Update the result page with the matched group's data
 		document.querySelector(".result-name").textContent = currentMatchedGroup.name;
 		document.querySelector(".result-images").src = currentMatchedGroup.image;
 	}
@@ -1059,7 +1028,6 @@ function showGroupResult() {
 	}
 }
 
-// These functions to handle about button clicks
 function openGroupAboutPage() {
 	if (currentMatchedGroup && currentMatchedGroup.link) {
 		window.open(currentMatchedGroup.link, "_blank");
@@ -1080,28 +1048,24 @@ function getBiasMatch() {
 
 	let bestMatch = null;
 
-	// 先精准匹配 role + animalLook
 	for (const member of currentMatchedGroup.members) {
 		if (formatText(member.role) === role && formatText(member.animalLook) === animalLook) {
 			return member;
 		}
 	}
 
-	// 如果没有精准 match，就只按 role 匹配
 	for (const member of currentMatchedGroup.members) {
 		if (formatText(member.role) === role) {
 			return member;
 		}
 	}
 
-	// 如果还没有，就按 animal look 匹配
 	for (const member of currentMatchedGroup.members) {
 		if (formatText(member.animalLook) === animalLook) {
 			return member;
 		}
 	}
 
-	// 如果都没有，就默认第一个成员
 	return currentMatchedGroup.members[0];
 }
 
@@ -1109,21 +1073,16 @@ let currentMatchedBias = null;
 
 function showBiasResult() {
 	currentMatchedBias = getBiasMatch();
-	//console.log('Matched Bias:', matchedBias); // Debug 看看有没有拿到正确成员！
 
 	if (currentMatchedBias) {
-		// Update bias name
 		document.querySelector(".result-bias .result-name").textContent = currentMatchedBias.name;
 
-		// Update bias image
 		document.querySelector(".bias-result-image").src = currentMatchedBias.image;
 
-		// Update bias background image
 		const biasSection = document.querySelector(".result-bias");
 		biasSection.style.backgroundSize = "cover";
 		biasSection.style.backgroundPosition = "center";
 
-		// Update social buttons
 		const socialLinks = document.querySelectorAll('.result-bias .social-btn a');
 		if (currentMatchedBias.socials) {
 			socialLinks[0].href = currentMatchedBias.socials.instagram;
@@ -1133,25 +1092,22 @@ function showBiasResult() {
 	}
 }
 
-// Add these event listeners to capture role and animal look choices
 document.querySelectorAll(".quiz-4-btn").forEach(button => {
 	button.addEventListener("click", () => {
 		userResults.role = button.textContent;
-		showSection(sections[5]); // Go to animal look question
+		showSection(sections[5]);
 	});
 });
 
 document.querySelectorAll(".quiz-5-btn").forEach(button => {
 	button.addEventListener("click", () => {
 		userResults.animalLook = button.textContent;
-		showBiasResult(); // Show the bias result
-		showSection(sections[7]); // Show the bias result page
+		showBiasResult();
+		showSection(sections[7]);
 	});
 });
 
-// share button
 document.addEventListener("DOMContentLoaded", () => {
-	// Event listener for group matching share button
 	document.querySelectorAll(".share-btn-twitter").forEach(button => {
 		button.addEventListener("click", () => {
 			const shareText = "Check out my perfect K-pop match!";
