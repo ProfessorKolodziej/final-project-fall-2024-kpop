@@ -225,7 +225,7 @@ const kpopGroups = {
 		},
 		members: [
 			{
-				name: "Shotaro", role: "Dancer", animalLook: "Hamster", image: "images/Shotaro.jpeg",
+				name: "Shotaro", role: "Dancer", animalLook: "Hamster", image: "images/Shotaro.jpg",
 				link: "https://en.wikipedia.org/wiki/Riize",
 				socials: {
 					instagram: "https://www.instagram.com/riize_official/?hl=en",
@@ -243,7 +243,7 @@ const kpopGroups = {
 				},
 			},
 			{
-				name: "Sohee", role: "Vocalist", animalLook: "Dog", image: "images/Sohee.jpeg",
+				name: "Sohee", role: "Vocalist", animalLook: "Dog", image: "images/sohee.jpeg",
 				link: "https://en.wikipedia.org/wiki/Riize",
 				socials: {
 					instagram: "https://www.instagram.com/riize_official/?hl=en",
